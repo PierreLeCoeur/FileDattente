@@ -10,5 +10,5 @@ int tempsdattente (int lbd)
     srand(time(NULL));
     U = (float) rand()/ (float)RAND_MAX;
     return U;
-    //modif Pierre;
+    //modif Pierre double auth test;
 }
