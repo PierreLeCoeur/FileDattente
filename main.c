@@ -7,4 +7,5 @@ int main()
     int U=tempsdattente(4);
     printf("U vaut : %f", U);
     return 0;
+    //essai
 }
