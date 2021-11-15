@@ -11,3 +11,8 @@ int tempsdattente (int lbd)
     U = (float) rand()/ (float)RAND_MAX;
     return U;
 }
+
+int test (int a)
+{
+return a ;
+}
