@@ -3,8 +3,8 @@
 #include "proba.h"
 
 int main()
-{
-    int U=tempsdattente(4);
-    printf("U vaut : %f", U);
+{   int a = tempsdattente(8);
+    printf("%d",a);
+
     return 0;
 }
