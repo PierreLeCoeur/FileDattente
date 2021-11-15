@@ -1,0 +1,1 @@
+int tempsdattente (int lbd);
