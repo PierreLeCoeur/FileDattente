@@ -4,7 +4,11 @@
 
 int main()
 {
-    float U=ecartarrivee(4);
-    printf("U vaut : %f", U);
+    //boucle
+    float T=ecartarrivee(4);
+    Client *tete = NULL ;
+    ajouterCLient(tete,T);
+
     return 0;
+
 }
