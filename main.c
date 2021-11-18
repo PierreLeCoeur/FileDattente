@@ -4,8 +4,7 @@
 
 int main()
 {
-    int U=tempsdattente(4);
+    float U=ecartarrivee(4);
     printf("U vaut : %f", U);
     return 0;
-    //essai
 }
