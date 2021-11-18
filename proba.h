@@ -1,1 +1,1 @@
-int tempsdattente (int lbd);
+float tempsdattente (int lambda);

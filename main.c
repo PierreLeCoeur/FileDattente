@@ -4,7 +4,7 @@
 
 int main()
 {
-    int U=tempsdattente(4);
-    printf("U vaut : %f", U);
+    float U = TempsEntreArriveeClient(4);
+    printf("U vaut : %f\n", U);
     return 0;
 }
