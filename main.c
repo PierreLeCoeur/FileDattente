@@ -6,7 +6,8 @@ int main()
 {
     //boucle
     float T=ecartarrivee(4);
-    Client *tete = NULL ;
+    Liste ListesClients ;
+    ListesClients.tete=NULL
     ajouterCLient(tete,T);
 
     return 0;
