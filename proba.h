@@ -7,7 +7,11 @@ int t_service;
 int h_sortie;
 struct Client *suiv;
 } Client;
+
+typedef struct{
+Client *tete;
+}  Liste;
+
+
 #define HEURE-START 510 // en minutes
 #define HEURE-END 1050
-
-
