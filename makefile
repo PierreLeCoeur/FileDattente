@@ -8,4 +8,4 @@ proba.o: proba.c proba.h
 	gcc -c proba.c
 
 clean: 
-	rm *.o *.out fileDattente
+	rm *.o  fileDattente
