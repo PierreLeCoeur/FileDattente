@@ -1,10 +1,11 @@
-float ecartarrivee (int lbd);
+
+
 typedef struct Client {
-int h_arrivee;
-int t_attente;
-int h_guichet;
-int t_service;
-int h_sortie;
+float h_arrivee;
+float t_attente;
+float h_guichet;
+float t_service;
+float h_sortie;
 struct Client *suiv;
 } Client;
 
@@ -13,5 +14,12 @@ Client *tete;
 }  Liste;
 
 
-#define HEURE-START 510 // en minutes
-#define HEURE-END 1050
+#define HEURE_START 510 // en minutes
+#define HEURE_END 1050
+
+float ecartArrivee (int lbd);
+void ajouterClient(Client *tete, float tempsEcart, float tempsService);
+void initListe(Client *tete,float tempsEcart,float tempsService);
+void affichageListe(Client *tete);
+float tempsService (int lbd);
+float heureArriveeDernier(Client *tete);

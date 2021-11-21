@@ -1,12 +1,12 @@
 # depslib dependency file v1.0
-1637246611 source:d:\a trier\ismin\cours\algo-prog\filedattente\main.c
+1637504822 source:d:\a trier\ismin\cours\algo-prog\filedattente\main.c
 	<stdio.h>
 	<stdlib.h>
 	"proba.h"
 
-1637246646 d:\a trier\ismin\cours\algo-prog\filedattente\proba.h
+1637503708 d:\a trier\ismin\cours\algo-prog\filedattente\proba.h
 
-1637246809 source:d:\a trier\ismin\cours\algo-prog\filedattente\proba.c
+1637504483 source:d:\a trier\ismin\cours\algo-prog\filedattente\proba.c
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
