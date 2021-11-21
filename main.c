@@ -3,6 +3,7 @@
 #include "proba.h"
 
 int main()
+<<<<<<< HEAD
 {
 
     //boucle
@@ -28,6 +29,11 @@ int main()
     }
     affichageListe(ListesClients->tete);
     printf("of");
+=======
+{   int a = tempsdattente(8);
+    printf("%d",a);
+
+>>>>>>> main
     return 0;
 
 }

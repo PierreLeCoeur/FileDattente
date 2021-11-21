@@ -99,3 +99,8 @@ float heureArriveeDernier(Client *tete)
     return courant->h_arrivee;
 >>>>>>> Modif-Pierre
 }
+
+int test (int a)
+{
+return a ;
+}
