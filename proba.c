@@ -3,6 +3,7 @@
 #include <time.h>
 #include "proba.h"
 
+
 float ecartArrivee (int lbd)
 {
     /*
@@ -29,24 +30,25 @@ void ajouterClient(Client *tete, float tempsEcart, float tempsService)
 {
     Client *nouveau;
     nouveau = (Client *)malloc(sizeof(Client));
-    Client *courant;
-    courant = (Client *)malloc(sizeof(Client));
+    Client *dernier;
+    dernier = (Client *)malloc(sizeof(Client));
+    dernier = tete;
 
-    while(courant-> suiv != NULL)
+    while(dernier-> suiv != NULL)
     {
-        courant = courant->suiv;
+        dernier = dernier->suiv;
     }
-    courant->suiv = nouveau;
+    dernier->suiv = nouveau;
 
-    nouveau->h_arrivee = courant->h_arrivee + tempsEcart;
-    nouveau->t_attente = courant->h_sortie - nouveau->h_arrivee;
-    nouveau->h_guichet = courant->h_sortie;
+    nouveau->h_arrivee = dernier->h_arrivee + tempsEcart;
+    nouveau->t_attente = dernier->h_sortie - nouveau->h_arrivee;
+    nouveau->h_guichet = dernier->h_sortie;
     nouveau->h_sortie = nouveau->h_guichet + tempsService;
     nouveau->t_service = tempsService;
     nouveau->suiv = NULL;
 }
 
-void initListe(Client *tete,float tempsEcart,float tempsService)
+void premierClient(Client *tete,float tempsEcart,float tempsService)
 {
     Client *nouveau;
     nouveau = (Client *)malloc(sizeof(Client));
@@ -63,22 +65,69 @@ void initListe(Client *tete,float tempsEcart,float tempsService)
 void affichageListe(Client *tete)
 {
     Client *courant = tete;
-    printf("ok");
     printf("%f",(courant->suiv)->h_arrivee);
     while(courant->suiv != NULL)
     {
-        printf("Heure arrivee :%f\n",courant->h_arrivee);
+        printf("Heure arrivee \n");
+        afficherHeure(courant->h_arrivee);
         courant = courant->suiv;
     }
 }
 
 float heureArriveeDernier(Client *tete)
 {
-    Client *courant = tete;
+    Client *dernier = tete;
 
-    while(courant-> suiv != NULL)
+    while(dernier-> suiv != NULL)
     {
-        courant = courant->suiv;
+        dernier = dernier->suiv;
     }
-    return courant->h_arrivee;
+    return dernier->h_arrivee;
+}
+
+
+void afficherHeure(float temps)
+{
+    int heures,minutes;
+    heures = conversionMinutesHeure(temps,&minutes);
+    printf("%d heure(s)  %d minute(s) \n",heures,minutes);
+}
+
+int ecritureFichiersClients(Client *tete)
+//Boolen; renvoie 0 pour echec d'ouverture, 1 sinon
+{
+    FILE *fichier;
+    fichier = fopen(FICHIER_CLIENTS,"w+");
+
+    if(fichier == NULL)
+    {
+        printf("echec ouverture fichier");
+        return 0;
+    }
+    else
+    {
+        Client *courant = tete;
+        int compteurClient = 1,minutes;        
+        while(courant->suiv !=NULL)
+        {
+            
+            fprintf(fichier,"Client n°%d ",compteurClient);
+            fprintf(fichier,"heure arrivee: %dh%d ",conversionMinutesHeure(courant->h_arrivee,&minutes),minutes); 
+            fprintf(fichier,"temps d'attente %dh%d ",conversionMinutesHeure(courant->t_attente,&minutes),minutes);
+            fprintf(fichier,"heure debut service: %dh%d ",conversionMinutesHeure(courant->h_guichet,&minutes),minutes);
+            fprintf(fichier,"heure fin service: %d\n",conversionMinutesHeure(courant->h_sortie,&minutes));
+            courant = courant->suiv;
+            compteurClient++;
+        } 
+        fclose(fichier);
+        return 1;
+    }
+
+}
+
+int conversionMinutesHeure(float heure,int *minutes)
+{
+    int h = heure/60;
+    *minutes = (int)heure % 60;
+    return h;
 }
