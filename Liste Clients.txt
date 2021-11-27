@@ -1,0 +1,60 @@
+Client n°1 heure arrivee: 9h10 
+temps d'attente 0h0 
+heure debut service: 9h10 
+heure fin service: 10h0 
+
+Client n°2 heure arrivee: 9h50 
+temps d'attente 0h10 
+heure debut service: 10h0 
+heure fin service: 10h50 
+
+Client n°3 heure arrivee: 10h30 
+temps d'attente 0h20 
+heure debut service: 10h50 
+heure fin service: 11h40 
+
+Client n°4 heure arrivee: 11h10 
+temps d'attente 0h30 
+heure debut service: 11h40 
+heure fin service: 12h30 
+
+Client n°5 heure arrivee: 11h50 
+temps d'attente 0h40 
+heure debut service: 12h30 
+heure fin service: 13h20 
+
+Client n°6 heure arrivee: 12h30 
+temps d'attente 0h50 
+heure debut service: 13h20 
+heure fin service: 14h10 
+
+Client n°7 heure arrivee: 13h10 
+temps d'attente 1h0 
+heure debut service: 14h10 
+heure fin service: 15h0 
+
+Client n°8 heure arrivee: 13h50 
+temps d'attente 1h10 
+heure debut service: 15h0 
+heure fin service: 15h50 
+
+Client n°9 heure arrivee: 14h30 
+temps d'attente 1h20 
+heure debut service: 15h50 
+heure fin service: 16h40 
+
+Client n°10 heure arrivee: 15h10 
+temps d'attente 1h30 
+heure debut service: 16h40 
+heure fin service: 17h30 
+
+Client n°11 heure arrivee: 15h50 
+temps d'attente 1h40 
+heure debut service: 17h30 
+heure fin service: 18h20 
+
+Client n°12 heure arrivee: 16h30 
+temps d'attente 1h0 
+heure debut service: 0h0 
+heure fin service: 17h30 
+

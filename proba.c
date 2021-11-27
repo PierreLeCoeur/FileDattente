@@ -96,6 +96,25 @@ void affichageListe(Client *tete)
     }
 }
 
+void affichageListeHeures(HeureGuichet *teteGuichet,HeureArrivee *teteArrivee)
+{
+    HeureGuichet *courantGuichet = teteGuichet->suiv;
+    HeureArrivee *courantArrivee = teteArrivee->suiv;
+    while(courantGuichet != NULL)
+    {
+        printf("Heure guichet ");
+        afficherHeure(courantGuichet->h_guichet);
+        courantGuichet = courantGuichet->suiv;
+    }
+    while(courantArrivee != NULL)
+    {
+        printf("Heure arrivee ");
+        afficherHeure(courantArrivee->h_arrivee);
+        courantArrivee = courantArrivee->suiv;
+    }
+        
+}
+
 float heureArriveeDernier(Client *tete)
 {
     Client *dernier = tete;
@@ -193,21 +212,62 @@ void nouvelleJournee(int lambda)
         else
             break;
     }
+    HeureGuichet teteGuichet;
+    teteGuichet.suiv =(HeureGuichet *)malloc(sizeof(HeureGuichet));
+    HeureArrivee teteArrivee;
+    teteArrivee.suiv =(HeureArrivee *)malloc(sizeof(HeureArrivee));
+    
+    remplissageHGuichet(ListesClients.tete,&teteGuichet);
+    remplissageHArrivee(ListesClients.tete,&teteArrivee);
     ecritureFichiersClients(ListesClients.tete);
+    affichageListeHeures(&teteGuichet,&teteArrivee);
 }
 
-/*
-void remplissageHGuichet()
-    (HeureGuichet *)malloc((sizeof(Client));
-    Client *courant= ListesClients.tete;
+
+void remplissageHGuichet(Client *ClientTete, HeureGuichet *hGuichetTete)
+{ 
     
-    while (courant != NULL)
-    {   
-        HeureGuichet *nouveau = (HeureGuichet *)malloc((sizeof(Client));
-        HeureGuichet *suivant = (HeureGuichet *)malloc((sizeof(Client));
-        nouveau->h_guichet=courant->h_guichet;
-        nouveau->suiv = suivant;
-        courant = courant->suiv;
+    Client *clientCourant = ClientTete->suiv;
+    
+    while (clientCourant != NULL)
+    {  
+        if (clientCourant->h_guichet != 0)
+        {
+            HeureGuichet *nouvelleHeureGuichet = (HeureGuichet *)malloc(sizeof(HeureGuichet));
+            HeureGuichet *derniereHeureGuichet = (HeureGuichet *)malloc(sizeof(HeureGuichet));
+            derniereHeureGuichet = hGuichetTete->suiv;
+            while(derniereHeureGuichet->suiv != NULL)
+            {
+                derniereHeureGuichet = derniereHeureGuichet->suiv;
+            }
+            derniereHeureGuichet->suiv = nouvelleHeureGuichet;
+            nouvelleHeureGuichet->h_guichet = clientCourant->h_guichet;
+            nouvelleHeureGuichet->suiv = NULL;
+            clientCourant = clientCourant->suiv;
+        }
+        clientCourant = clientCourant->suiv;
     }
 }
-*/
+
+void remplissageHArrivee(Client *ClientTete, HeureArrivee *hArriveeTete)
+{ 
+    
+    Client *clientCourant = ClientTete->suiv;
+    
+    while (clientCourant != NULL)
+    {  
+        
+        HeureArrivee *nouvelleHeureArrivee = (HeureArrivee *)malloc(sizeof(HeureArrivee));
+        HeureArrivee *derniereHeureArrivee = (HeureArrivee *)malloc(sizeof(HeureArrivee));
+        derniereHeureArrivee = hArriveeTete->suiv;
+        while(derniereHeureArrivee->suiv != NULL)
+        {
+            derniereHeureArrivee = derniereHeureArrivee->suiv;
+        }
+        derniereHeureArrivee->suiv = nouvelleHeureArrivee;
+        nouvelleHeureArrivee->h_arrivee = clientCourant->h_arrivee;
+        nouvelleHeureArrivee->suiv = NULL;
+        clientCourant = clientCourant->suiv;
+    }
+}
+

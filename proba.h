@@ -45,3 +45,6 @@ void afficherHeure(float temps);
 int conversionMinutesHeure(float heure,int *minutes);
 int ecritureFichiersClients(Client *tete);
 void nouvelleJournee(int lambda);
+void remplissageHGuichet(Client *ClientTete, HeureGuichet *hGuichetTete);
+void remplissageHArrivee(Client *ClientTete, HeureArrivee *hArriveeTete);
+void affichageListeHeures(HeureGuichet *teteGuichet,HeureArrivee *teteArrivee);

@@ -11,5 +11,4 @@ int main()
     
     //affichageListe(ListesClients.tete);
     return 0;
-
 }
