@@ -8,6 +8,22 @@ float h_sortie;
 struct Client *suiv;
 } Client;
 
+typedef struct TailleFile {
+float h_actual;
+int taille;
+struct TailleFile *suiv;
+} TailleFile;
+
+typedef struct HeureGuichet{
+    float h_guichet;
+    struct HeureGuichet *suiv;
+} HeureGuichet;
+
+typedef struct HeureArrivee{
+    float h_arrivee;
+    struct HeureArrivee *suiv;
+} HeureArrivee;
+
 typedef struct{
 Client *tete;
 }  Liste;
@@ -28,3 +44,4 @@ float heureArriveeDernier(Client *tete);
 void afficherHeure(float temps);
 int conversionMinutesHeure(float heure,int *minutes);
 int ecritureFichiersClients(Client *tete);
+void nouvelleJournee(int lambda);
