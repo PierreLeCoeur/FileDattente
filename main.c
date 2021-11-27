@@ -28,7 +28,6 @@ int main()
     }
     //affichageListe((&ListesClients)->tete);
     ecritureFichiersClients(ListesClients.tete);
-    printf("test\n");
     return 0;
 
 }

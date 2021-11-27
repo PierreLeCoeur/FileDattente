@@ -14,7 +14,7 @@ Client *tete;
 
 #define FICHIER_CLIENTS "Liste Clients.txt"
 //en minutes
-#define HEURE_START 510 // 8h 
+#define HEURE_START 510 // 8h30
 #define HEURE_END 1050  // 17h30
 #define HEURE_FIN_ENTREE 1020 //17h
 

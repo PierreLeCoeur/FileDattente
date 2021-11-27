@@ -41,7 +41,12 @@ void ajouterClient(Client *tete, float tempsEcart, float tempsService)
     dernier->suiv = nouveau;
 
     nouveau->h_arrivee = dernier->h_arrivee + tempsEcart;
-    nouveau->t_attente = dernier->h_sortie - nouveau->h_arrivee;
+    if(nouveau->h_arrivee>dernier->h_sortie)
+    {
+        nouveau->t_attente= 0;
+    }
+    else
+        nouveau->t_attente = dernier->h_sortie - nouveau->h_arrivee;
     nouveau->h_guichet = dernier->h_sortie;
     nouveau->h_sortie = nouveau->h_guichet + tempsService;
     nouveau->t_service = tempsService;
@@ -106,8 +111,10 @@ int ecritureFichiersClients(Client *tete)
     }
     else
     {
-        Client *courant = tete;
-        int compteurClient = 1,minutes;        
+        Client *courant = tete->suiv;
+        int minutes =0;
+        conversionMinutesHeure(courant->h_arrivee,&minutes);     
+        int compteurClient = 1;  
         while(courant->suiv !=NULL)
         {
             
@@ -115,7 +122,7 @@ int ecritureFichiersClients(Client *tete)
             fprintf(fichier,"heure arrivee: %dh%d ",conversionMinutesHeure(courant->h_arrivee,&minutes),minutes); 
             fprintf(fichier,"temps d'attente %dh%d ",conversionMinutesHeure(courant->t_attente,&minutes),minutes);
             fprintf(fichier,"heure debut service: %dh%d ",conversionMinutesHeure(courant->h_guichet,&minutes),minutes);
-            fprintf(fichier,"heure fin service: %d\n",conversionMinutesHeure(courant->h_sortie,&minutes));
+            fprintf(fichier,"heure fin service: %dh%d\n",conversionMinutesHeure(courant->h_sortie,&minutes),minutes);
             courant = courant->suiv;
             compteurClient++;
         } 
