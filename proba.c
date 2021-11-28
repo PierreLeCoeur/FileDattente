@@ -11,7 +11,7 @@ float ecartArrivee (int lbd)
     srand(time(NULL));
     U=(float)rand();//(float)RAND_MAX;
     */
-    float T=40;
+    float T=5;
     return T;
 }
 
@@ -22,7 +22,7 @@ float tempsService (int lbd)
    // srand(time(NULL));
     //U=(float)rand();//(float)RAND_MAX;
 
-    float T=50;
+    float T=15;
     return T;
 }
 
@@ -317,7 +317,6 @@ float tailleMoyenneFile(TailleFile *teteTaille, HeureGuichet *teteGuichet, Heure
         while (courantHeureArrivee!= NULL && courantHeureGuichet != NULL && courantHeureArrivee->h_arrivee == courantHeureGuichet->h_guichet)
         {
             TailleFile *nouveauFile = (TailleFile *)malloc(sizeof(TailleFile));
-            printf("%f\n",courantHeureArrivee->h_arrivee);
             courantFile->suiv=nouveauFile;
             nouveauFile->taille = courantFile->taille;
             nouveauFile->suiv=NULL;

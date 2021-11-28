@@ -1,60 +1,505 @@
-Client n°1 heure arrivee: 9h10 
+Client n°1 heure arrivee: 8h35 
 temps d'attente 0h0 
-heure debut service: 9h10 
-heure fin service: 10h0 
+heure debut service: 8h35 
+heure fin service: 8h50 
 
-Client n°2 heure arrivee: 9h50 
+Client n°2 heure arrivee: 8h40 
 temps d'attente 0h10 
-heure debut service: 10h0 
+heure debut service: 8h50 
+heure fin service: 9h5 
+
+Client n°3 heure arrivee: 8h45 
+temps d'attente 0h20 
+heure debut service: 9h5 
+heure fin service: 9h20 
+
+Client n°4 heure arrivee: 8h50 
+temps d'attente 0h30 
+heure debut service: 9h20 
+heure fin service: 9h35 
+
+Client n°5 heure arrivee: 8h55 
+temps d'attente 0h40 
+heure debut service: 9h35 
+heure fin service: 9h50 
+
+Client n°6 heure arrivee: 9h0 
+temps d'attente 0h50 
+heure debut service: 9h50 
+heure fin service: 10h5 
+
+Client n°7 heure arrivee: 9h5 
+temps d'attente 1h0 
+heure debut service: 10h5 
+heure fin service: 10h20 
+
+Client n°8 heure arrivee: 9h10 
+temps d'attente 1h10 
+heure debut service: 10h20 
+heure fin service: 10h35 
+
+Client n°9 heure arrivee: 9h15 
+temps d'attente 1h20 
+heure debut service: 10h35 
 heure fin service: 10h50 
 
-Client n°3 heure arrivee: 10h30 
-temps d'attente 0h20 
+Client n°10 heure arrivee: 9h20 
+temps d'attente 1h30 
 heure debut service: 10h50 
-heure fin service: 11h40 
+heure fin service: 11h5 
 
-Client n°4 heure arrivee: 11h10 
-temps d'attente 0h30 
-heure debut service: 11h40 
-heure fin service: 12h30 
+Client n°11 heure arrivee: 9h25 
+temps d'attente 1h40 
+heure debut service: 11h5 
+heure fin service: 11h20 
 
-Client n°5 heure arrivee: 11h50 
-temps d'attente 0h40 
-heure debut service: 12h30 
+Client n°12 heure arrivee: 9h30 
+temps d'attente 1h50 
+heure debut service: 11h20 
+heure fin service: 11h35 
+
+Client n°13 heure arrivee: 9h35 
+temps d'attente 2h0 
+heure debut service: 11h35 
+heure fin service: 11h50 
+
+Client n°14 heure arrivee: 9h40 
+temps d'attente 2h10 
+heure debut service: 11h50 
+heure fin service: 12h5 
+
+Client n°15 heure arrivee: 9h45 
+temps d'attente 2h20 
+heure debut service: 12h5 
+heure fin service: 12h20 
+
+Client n°16 heure arrivee: 9h50 
+temps d'attente 2h30 
+heure debut service: 12h20 
+heure fin service: 12h35 
+
+Client n°17 heure arrivee: 9h55 
+temps d'attente 2h40 
+heure debut service: 12h35 
+heure fin service: 12h50 
+
+Client n°18 heure arrivee: 10h0 
+temps d'attente 2h50 
+heure debut service: 12h50 
+heure fin service: 13h5 
+
+Client n°19 heure arrivee: 10h5 
+temps d'attente 3h0 
+heure debut service: 13h5 
 heure fin service: 13h20 
 
-Client n°6 heure arrivee: 12h30 
-temps d'attente 0h50 
+Client n°20 heure arrivee: 10h10 
+temps d'attente 3h10 
 heure debut service: 13h20 
-heure fin service: 14h10 
+heure fin service: 13h35 
 
-Client n°7 heure arrivee: 13h10 
-temps d'attente 1h0 
-heure debut service: 14h10 
-heure fin service: 15h0 
+Client n°21 heure arrivee: 10h15 
+temps d'attente 3h20 
+heure debut service: 13h35 
+heure fin service: 13h50 
 
-Client n°8 heure arrivee: 13h50 
-temps d'attente 1h10 
-heure debut service: 15h0 
+Client n°22 heure arrivee: 10h20 
+temps d'attente 3h30 
+heure debut service: 13h50 
+heure fin service: 14h5 
+
+Client n°23 heure arrivee: 10h25 
+temps d'attente 3h40 
+heure debut service: 14h5 
+heure fin service: 14h20 
+
+Client n°24 heure arrivee: 10h30 
+temps d'attente 3h50 
+heure debut service: 14h20 
+heure fin service: 14h35 
+
+Client n°25 heure arrivee: 10h35 
+temps d'attente 4h0 
+heure debut service: 14h35 
+heure fin service: 14h50 
+
+Client n°26 heure arrivee: 10h40 
+temps d'attente 4h10 
+heure debut service: 14h50 
+heure fin service: 15h5 
+
+Client n°27 heure arrivee: 10h45 
+temps d'attente 4h20 
+heure debut service: 15h5 
+heure fin service: 15h20 
+
+Client n°28 heure arrivee: 10h50 
+temps d'attente 4h30 
+heure debut service: 15h20 
+heure fin service: 15h35 
+
+Client n°29 heure arrivee: 10h55 
+temps d'attente 4h40 
+heure debut service: 15h35 
 heure fin service: 15h50 
 
-Client n°9 heure arrivee: 14h30 
-temps d'attente 1h20 
+Client n°30 heure arrivee: 11h0 
+temps d'attente 4h50 
 heure debut service: 15h50 
-heure fin service: 16h40 
+heure fin service: 16h5 
 
-Client n°10 heure arrivee: 15h10 
-temps d'attente 1h30 
-heure debut service: 16h40 
+Client n°31 heure arrivee: 11h5 
+temps d'attente 5h0 
+heure debut service: 16h5 
+heure fin service: 16h20 
+
+Client n°32 heure arrivee: 11h10 
+temps d'attente 5h10 
+heure debut service: 16h20 
+heure fin service: 16h35 
+
+Client n°33 heure arrivee: 11h15 
+temps d'attente 5h20 
+heure debut service: 16h35 
+heure fin service: 16h50 
+
+Client n°34 heure arrivee: 11h20 
+temps d'attente 5h30 
+heure debut service: 16h50 
+heure fin service: 17h5 
+
+Client n°35 heure arrivee: 11h25 
+temps d'attente 5h40 
+heure debut service: 17h5 
+heure fin service: 17h20 
+
+Client n°36 heure arrivee: 11h30 
+temps d'attente 5h50 
+heure debut service: 17h20 
+heure fin service: 17h35 
+
+Client n°37 heure arrivee: 11h35 
+temps d'attente 5h55 
+heure debut service: 0h0 
 heure fin service: 17h30 
 
-Client n°11 heure arrivee: 15h50 
+Client n°38 heure arrivee: 11h40 
+temps d'attente 5h50 
+heure debut service: 17h30 
+heure fin service: 17h45 
+
+Client n°39 heure arrivee: 11h45 
+temps d'attente 5h45 
+heure debut service: 0h0 
+heure fin service: 17h30 
+
+Client n°40 heure arrivee: 11h50 
+temps d'attente 5h40 
+heure debut service: 17h30 
+heure fin service: 17h45 
+
+Client n°41 heure arrivee: 11h55 
+temps d'attente 5h35 
+heure debut service: 0h0 
+heure fin service: 17h30 
+
+Client n°42 heure arrivee: 12h0 
+temps d'attente 5h30 
+heure debut service: 17h30 
+heure fin service: 17h45 
+
+Client n°43 heure arrivee: 12h5 
+temps d'attente 5h25 
+heure debut service: 0h0 
+heure fin service: 17h30 
+
+Client n°44 heure arrivee: 12h10 
+temps d'attente 5h20 
+heure debut service: 17h30 
+heure fin service: 17h45 
+
+Client n°45 heure arrivee: 12h15 
+temps d'attente 5h15 
+heure debut service: 0h0 
+heure fin service: 17h30 
+
+Client n°46 heure arrivee: 12h20 
+temps d'attente 5h10 
+heure debut service: 17h30 
+heure fin service: 17h45 
+
+Client n°47 heure arrivee: 12h25 
+temps d'attente 5h5 
+heure debut service: 0h0 
+heure fin service: 17h30 
+
+Client n°48 heure arrivee: 12h30 
+temps d'attente 5h0 
+heure debut service: 17h30 
+heure fin service: 17h45 
+
+Client n°49 heure arrivee: 12h35 
+temps d'attente 4h55 
+heure debut service: 0h0 
+heure fin service: 17h30 
+
+Client n°50 heure arrivee: 12h40 
+temps d'attente 4h50 
+heure debut service: 17h30 
+heure fin service: 17h45 
+
+Client n°51 heure arrivee: 12h45 
+temps d'attente 4h45 
+heure debut service: 0h0 
+heure fin service: 17h30 
+
+Client n°52 heure arrivee: 12h50 
+temps d'attente 4h40 
+heure debut service: 17h30 
+heure fin service: 17h45 
+
+Client n°53 heure arrivee: 12h55 
+temps d'attente 4h35 
+heure debut service: 0h0 
+heure fin service: 17h30 
+
+Client n°54 heure arrivee: 13h0 
+temps d'attente 4h30 
+heure debut service: 17h30 
+heure fin service: 17h45 
+
+Client n°55 heure arrivee: 13h5 
+temps d'attente 4h25 
+heure debut service: 0h0 
+heure fin service: 17h30 
+
+Client n°56 heure arrivee: 13h10 
+temps d'attente 4h20 
+heure debut service: 17h30 
+heure fin service: 17h45 
+
+Client n°57 heure arrivee: 13h15 
+temps d'attente 4h15 
+heure debut service: 0h0 
+heure fin service: 17h30 
+
+Client n°58 heure arrivee: 13h20 
+temps d'attente 4h10 
+heure debut service: 17h30 
+heure fin service: 17h45 
+
+Client n°59 heure arrivee: 13h25 
+temps d'attente 4h5 
+heure debut service: 0h0 
+heure fin service: 17h30 
+
+Client n°60 heure arrivee: 13h30 
+temps d'attente 4h0 
+heure debut service: 17h30 
+heure fin service: 17h45 
+
+Client n°61 heure arrivee: 13h35 
+temps d'attente 3h55 
+heure debut service: 0h0 
+heure fin service: 17h30 
+
+Client n°62 heure arrivee: 13h40 
+temps d'attente 3h50 
+heure debut service: 17h30 
+heure fin service: 17h45 
+
+Client n°63 heure arrivee: 13h45 
+temps d'attente 3h45 
+heure debut service: 0h0 
+heure fin service: 17h30 
+
+Client n°64 heure arrivee: 13h50 
+temps d'attente 3h40 
+heure debut service: 17h30 
+heure fin service: 17h45 
+
+Client n°65 heure arrivee: 13h55 
+temps d'attente 3h35 
+heure debut service: 0h0 
+heure fin service: 17h30 
+
+Client n°66 heure arrivee: 14h0 
+temps d'attente 3h30 
+heure debut service: 17h30 
+heure fin service: 17h45 
+
+Client n°67 heure arrivee: 14h5 
+temps d'attente 3h25 
+heure debut service: 0h0 
+heure fin service: 17h30 
+
+Client n°68 heure arrivee: 14h10 
+temps d'attente 3h20 
+heure debut service: 17h30 
+heure fin service: 17h45 
+
+Client n°69 heure arrivee: 14h15 
+temps d'attente 3h15 
+heure debut service: 0h0 
+heure fin service: 17h30 
+
+Client n°70 heure arrivee: 14h20 
+temps d'attente 3h10 
+heure debut service: 17h30 
+heure fin service: 17h45 
+
+Client n°71 heure arrivee: 14h25 
+temps d'attente 3h5 
+heure debut service: 0h0 
+heure fin service: 17h30 
+
+Client n°72 heure arrivee: 14h30 
+temps d'attente 3h0 
+heure debut service: 17h30 
+heure fin service: 17h45 
+
+Client n°73 heure arrivee: 14h35 
+temps d'attente 2h55 
+heure debut service: 0h0 
+heure fin service: 17h30 
+
+Client n°74 heure arrivee: 14h40 
+temps d'attente 2h50 
+heure debut service: 17h30 
+heure fin service: 17h45 
+
+Client n°75 heure arrivee: 14h45 
+temps d'attente 2h45 
+heure debut service: 0h0 
+heure fin service: 17h30 
+
+Client n°76 heure arrivee: 14h50 
+temps d'attente 2h40 
+heure debut service: 17h30 
+heure fin service: 17h45 
+
+Client n°77 heure arrivee: 14h55 
+temps d'attente 2h35 
+heure debut service: 0h0 
+heure fin service: 17h30 
+
+Client n°78 heure arrivee: 15h0 
+temps d'attente 2h30 
+heure debut service: 17h30 
+heure fin service: 17h45 
+
+Client n°79 heure arrivee: 15h5 
+temps d'attente 2h25 
+heure debut service: 0h0 
+heure fin service: 17h30 
+
+Client n°80 heure arrivee: 15h10 
+temps d'attente 2h20 
+heure debut service: 17h30 
+heure fin service: 17h45 
+
+Client n°81 heure arrivee: 15h15 
+temps d'attente 2h15 
+heure debut service: 0h0 
+heure fin service: 17h30 
+
+Client n°82 heure arrivee: 15h20 
+temps d'attente 2h10 
+heure debut service: 17h30 
+heure fin service: 17h45 
+
+Client n°83 heure arrivee: 15h25 
+temps d'attente 2h5 
+heure debut service: 0h0 
+heure fin service: 17h30 
+
+Client n°84 heure arrivee: 15h30 
+temps d'attente 2h0 
+heure debut service: 17h30 
+heure fin service: 17h45 
+
+Client n°85 heure arrivee: 15h35 
+temps d'attente 1h55 
+heure debut service: 0h0 
+heure fin service: 17h30 
+
+Client n°86 heure arrivee: 15h40 
+temps d'attente 1h50 
+heure debut service: 17h30 
+heure fin service: 17h45 
+
+Client n°87 heure arrivee: 15h45 
+temps d'attente 1h45 
+heure debut service: 0h0 
+heure fin service: 17h30 
+
+Client n°88 heure arrivee: 15h50 
 temps d'attente 1h40 
 heure debut service: 17h30 
-heure fin service: 18h20 
+heure fin service: 17h45 
 
-Client n°12 heure arrivee: 16h30 
+Client n°89 heure arrivee: 15h55 
+temps d'attente 1h35 
+heure debut service: 0h0 
+heure fin service: 17h30 
+
+Client n°90 heure arrivee: 16h0 
+temps d'attente 1h30 
+heure debut service: 17h30 
+heure fin service: 17h45 
+
+Client n°91 heure arrivee: 16h5 
+temps d'attente 1h25 
+heure debut service: 0h0 
+heure fin service: 17h30 
+
+Client n°92 heure arrivee: 16h10 
+temps d'attente 1h20 
+heure debut service: 17h30 
+heure fin service: 17h45 
+
+Client n°93 heure arrivee: 16h15 
+temps d'attente 1h15 
+heure debut service: 0h0 
+heure fin service: 17h30 
+
+Client n°94 heure arrivee: 16h20 
+temps d'attente 1h10 
+heure debut service: 17h30 
+heure fin service: 17h45 
+
+Client n°95 heure arrivee: 16h25 
+temps d'attente 1h5 
+heure debut service: 0h0 
+heure fin service: 17h30 
+
+Client n°96 heure arrivee: 16h30 
 temps d'attente 1h0 
+heure debut service: 17h30 
+heure fin service: 17h45 
+
+Client n°97 heure arrivee: 16h35 
+temps d'attente 0h55 
+heure debut service: 0h0 
+heure fin service: 17h30 
+
+Client n°98 heure arrivee: 16h40 
+temps d'attente 0h50 
+heure debut service: 17h30 
+heure fin service: 17h45 
+
+Client n°99 heure arrivee: 16h45 
+temps d'attente 0h45 
+heure debut service: 0h0 
+heure fin service: 17h30 
+
+Client n°100 heure arrivee: 16h50 
+temps d'attente 0h40 
+heure debut service: 17h30 
+heure fin service: 17h45 
+
+Client n°101 heure arrivee: 16h55 
+temps d'attente 0h35 
 heure debut service: 0h0 
 heure fin service: 17h30 
 
