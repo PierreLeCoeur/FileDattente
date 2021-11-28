@@ -49,3 +49,5 @@ void remplissageHGuichet(Client *ClientTete, HeureGuichet *hGuichetTete);
 void remplissageHArrivee(Client *ClientTete, HeureArrivee *hArriveeTete);
 void affichageListeHeures(HeureGuichet *teteGuichet,HeureArrivee *teteArrivee);
 float tailleMoyenneFile(TailleFile *teteTaille, HeureGuichet *teteGuichet, HeureArrivee *teteArrivee);
+void initHGuichet(Client *ClientTete, HeureGuichet *hGuichetTete);
+void initHArrivee(Client *ClientTete, HeureArrivee *hArriveeTete);
