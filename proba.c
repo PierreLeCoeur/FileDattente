@@ -11,7 +11,7 @@ float ecartArrivee (int lbd)
     srand(time(NULL));
     U=(float)rand();//(float)RAND_MAX;
     */
-    float T=5;
+    float T=6;
     return T;
 }
 
@@ -153,14 +153,14 @@ int ecritureFichiersClients(Client *tete)
         int compteurClient = 1;  
         while(courant !=NULL)
         {          
-            fprintf(fichier,"Client n°%d ",compteurClient);
-            fprintf(fichier,"heure arrivee: %dh",conversionMinutesHeure(courant->h_arrivee,&minutes));
+            fprintf(fichier,"Client n°%d\n",compteurClient);
+            fprintf(fichier,"Heure d'arrivée: %dh",conversionMinutesHeure(courant->h_arrivee,&minutes));
             fprintf(fichier,"%d \n",minutes); 
-            fprintf(fichier,"temps d'attente %dh",conversionMinutesHeure(courant->t_attente,&minutes));
+            fprintf(fichier,"Temps d'attente %dh",conversionMinutesHeure(courant->t_attente,&minutes));
             fprintf(fichier,"%d \n",minutes); 
-            fprintf(fichier,"heure debut service: %dh",conversionMinutesHeure(courant->h_guichet,&minutes));
+            fprintf(fichier,"Heure du début de service: %dh",conversionMinutesHeure(courant->h_guichet,&minutes));
             fprintf(fichier,"%d \n",minutes); 
-            fprintf(fichier,"heure fin service: %dh",conversionMinutesHeure(courant->h_sortie,&minutes));
+            fprintf(fichier,"Heure de fin de service: %dh",conversionMinutesHeure(courant->h_sortie,&minutes));
             fprintf(fichier,"%d \n\n",minutes); 
             
             courant = courant->suiv;
