@@ -8,10 +8,10 @@ float h_sortie;
 struct Client *suiv;
 } Client;
 
+
 typedef struct TailleFile {
-float h_actual;
-int taille;
-struct TailleFile *suiv;
+    int taille;
+    struct TailleFile *suiv;
 } TailleFile;
 
 typedef struct HeureGuichet{
@@ -48,3 +48,4 @@ void nouvelleJournee(int lambda);
 void remplissageHGuichet(Client *ClientTete, HeureGuichet *hGuichetTete);
 void remplissageHArrivee(Client *ClientTete, HeureArrivee *hArriveeTete);
 void affichageListeHeures(HeureGuichet *teteGuichet,HeureArrivee *teteArrivee);
+float tailleMoyenneFile(TailleFile *teteTaille, HeureGuichet *teteGuichet, HeureArrivee *teteArrivee);

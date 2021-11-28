@@ -98,8 +98,8 @@ void affichageListe(Client *tete)
 
 void affichageListeHeures(HeureGuichet *teteGuichet,HeureArrivee *teteArrivee)
 {
-    HeureGuichet *courantGuichet = teteGuichet->suiv;
-    HeureArrivee *courantArrivee = teteArrivee->suiv;
+    HeureGuichet *courantGuichet = teteGuichet->suiv->suiv;
+    HeureArrivee *courantArrivee = teteArrivee->suiv->suiv;
     while(courantGuichet != NULL)
     {
         printf("Heure guichet ");
@@ -152,15 +152,7 @@ int ecritureFichiersClients(Client *tete)
         conversionMinutesHeure(courant->h_arrivee,&minutes);     
         int compteurClient = 1;  
         while(courant !=NULL)
-        {
-            /*
-            fprintf(fichier,"Client n°%d \n",compteurClient);
-            fprintf(fichier,"heure arrivee: %f\n",courant->h_arrivee); 
-            fprintf(fichier,"temps d'attente %f  \n",courant->t_attente);
-            fprintf(fichier,"heure debut service: %f \n",courant->h_guichet);
-            fprintf(fichier,"heure fin service: %f \n\n",courant->h_sortie);
-            */
-            
+        {          
             fprintf(fichier,"Client n°%d ",compteurClient);
             fprintf(fichier,"heure arrivee: %dh",conversionMinutesHeure(courant->h_arrivee,&minutes));
             fprintf(fichier,"%d \n",minutes); 
@@ -216,11 +208,15 @@ void nouvelleJournee(int lambda)
     teteGuichet.suiv =(HeureGuichet *)malloc(sizeof(HeureGuichet));
     HeureArrivee teteArrivee;
     teteArrivee.suiv =(HeureArrivee *)malloc(sizeof(HeureArrivee));
+    TailleFile teteFile;
+    teteFile.suiv = (TailleFile *)malloc(sizeof(TailleFile));
+
     
     remplissageHGuichet(ListesClients.tete,&teteGuichet);
     remplissageHArrivee(ListesClients.tete,&teteArrivee);
     ecritureFichiersClients(ListesClients.tete);
-    affichageListeHeures(&teteGuichet,&teteArrivee);
+    //affichageListeHeures(&teteGuichet,&teteArrivee);
+    printf("Moyenne File %f\n",tailleMoyenneFile(&teteFile,&teteGuichet,&teteArrivee));
 }
 
 
@@ -235,7 +231,8 @@ void remplissageHGuichet(Client *ClientTete, HeureGuichet *hGuichetTete)
         {
             HeureGuichet *nouvelleHeureGuichet = (HeureGuichet *)malloc(sizeof(HeureGuichet));
             HeureGuichet *derniereHeureGuichet = (HeureGuichet *)malloc(sizeof(HeureGuichet));
-            derniereHeureGuichet = hGuichetTete->suiv;
+            derniereHeureGuichet = hGuichetTete;
+
             while(derniereHeureGuichet->suiv != NULL)
             {
                 derniereHeureGuichet = derniereHeureGuichet->suiv;
@@ -245,7 +242,10 @@ void remplissageHGuichet(Client *ClientTete, HeureGuichet *hGuichetTete)
             nouvelleHeureGuichet->suiv = NULL;
             clientCourant = clientCourant->suiv;
         }
-        clientCourant = clientCourant->suiv;
+        else 
+        {
+            clientCourant = clientCourant->suiv;
+        }
     }
 }
 
@@ -271,3 +271,47 @@ void remplissageHArrivee(Client *ClientTete, HeureArrivee *hArriveeTete)
     }
 }
 
+float tailleMoyenneFile(TailleFile *teteTaille, HeureGuichet *teteGuichet, HeureArrivee *teteArrivee)
+{
+    HeureGuichet *courantHeureGuichet = teteGuichet->suiv->suiv;
+    HeureArrivee *courantHeureArrivee = teteArrivee->suiv->suiv;
+    TailleFile  *courantFile = teteTaille->suiv;
+    while(courantHeureArrivee != NULL && courantHeureGuichet != NULL)
+    {
+        while (courantHeureArrivee->h_arrivee < courantHeureGuichet->h_guichet )
+        {
+            TailleFile *nouveauFile = (TailleFile *)malloc(sizeof(TailleFile));
+            courantFile->suiv=nouveauFile;
+            nouveauFile->taille = courantFile->taille+1;
+            courantFile = nouveauFile;
+            courantHeureArrivee = courantHeureArrivee->suiv;
+        }
+        while (courantHeureArrivee->h_arrivee > courantHeureGuichet->h_guichet )
+        {
+            TailleFile *nouveauFile = (TailleFile *)malloc(sizeof(TailleFile));
+            courantFile->suiv=nouveauFile;
+            nouveauFile->taille = courantFile->taille-1;
+            courantFile = nouveauFile;
+            courantHeureGuichet= courantHeureGuichet->suiv;
+        }
+        while (courantHeureArrivee->h_arrivee == courantHeureGuichet->h_guichet )
+        {
+            TailleFile *nouveauFile = (TailleFile *)malloc(sizeof(TailleFile));
+            courantFile->suiv=nouveauFile;
+            nouveauFile->taille = courantFile->taille;
+            courantFile = nouveauFile;
+            courantHeureGuichet= courantHeureGuichet->suiv;
+            courantHeureArrivee = courantHeureArrivee->suiv;
+        }
+    }
+    courantFile = teteTaille->suiv;
+    float moyenneFile = 0;
+    int compteurChangementFile = 0;
+    while(courantFile!= NULL)
+    {
+        moyenneFile += courantFile->taille;
+        compteurChangementFile ++;
+        courantFile = courantFile->suiv;
+    }
+    return moyenneFile/compteurChangementFile;
+} 
