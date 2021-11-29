@@ -17,7 +17,7 @@ int main()
         nouvelleJournee(lambda,&ListeClients,journee,&teteStats);
         ecritureFichiersClients(ListeClients.tete,journee);       
     }
-    
+    ecritureFichiersStats( &teteStats);
     //affichageListe(ListesClients.tete);
     return 0;
 }

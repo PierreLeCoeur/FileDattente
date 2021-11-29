@@ -37,6 +37,8 @@ Client *tete;
 }  Liste;
 
 #define FICHIER_CLIENTS "Liste Clients.txt"
+#define FICHIER_STATS "Statistiques.txt"
+
 //en minutes
 #define HEURE_START 510 // 8h30
 #define HEURE_END 1050  // 17h30
@@ -44,14 +46,15 @@ Client *tete;
 
 
 float ecartArrivee (int lbd);
-void ajouterClient(Client *tete, float tempsEcart, float tempsService,float *totale_attente);
-void premierClient(Client *tete,float tempsEcart,float tempsService,float *totale_attente);
+void ajouterClient(Client *tete, float tempsEcart, float tempsService,float *totale_attente, int *compteurClients);
+void premierClient(Client *tete,float tempsEcart,float tempsService);
 void affichageListe(Client *tete);
 float tempsService (int lbd);
 float heureArriveeDernier(Client *tete);
 void afficherHeure(float temps);
 int conversionMinutesHeure(float heure,int *minutes);
 int ecritureFichiersClients(Client *tete, int journee);
+int ecritureFichiersStats( Stats *teteStats);
 void nouvelleJournee(int lambda,Liste *ListesClients,int journee, Stats *teteStats);
 void remplissageHGuichet(Client *ClientTete, HeureGuichet *hGuichetTete);
 void remplissageHArrivee(Client *ClientTete, HeureArrivee *hArriveeTete);

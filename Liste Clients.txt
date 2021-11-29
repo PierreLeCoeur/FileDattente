@@ -513,3 +513,312 @@ Heure de fin de service: 16h45
 
 
 
+Journée numéro : 6
+Client n°1
+Heure d'arrivée: 9h0 
+Temps d'attente 0h0 
+Heure du début de service: 9h0 
+Heure de fin de service: 9h15 
+
+Client n°2
+Heure d'arrivée: 9h30 
+Temps d'attente 0h0 
+Heure du début de service: 9h30 
+Heure de fin de service: 9h45 
+
+Client n°3
+Heure d'arrivée: 10h0 
+Temps d'attente 0h0 
+Heure du début de service: 10h0 
+Heure de fin de service: 10h15 
+
+Client n°4
+Heure d'arrivée: 10h30 
+Temps d'attente 0h0 
+Heure du début de service: 10h30 
+Heure de fin de service: 10h45 
+
+Client n°5
+Heure d'arrivée: 11h0 
+Temps d'attente 0h0 
+Heure du début de service: 11h0 
+Heure de fin de service: 11h15 
+
+Client n°6
+Heure d'arrivée: 11h30 
+Temps d'attente 0h0 
+Heure du début de service: 11h30 
+Heure de fin de service: 11h45 
+
+Client n°7
+Heure d'arrivée: 12h0 
+Temps d'attente 0h0 
+Heure du début de service: 12h0 
+Heure de fin de service: 12h15 
+
+Client n°8
+Heure d'arrivée: 12h30 
+Temps d'attente 0h0 
+Heure du début de service: 12h30 
+Heure de fin de service: 12h45 
+
+Client n°9
+Heure d'arrivée: 13h0 
+Temps d'attente 0h0 
+Heure du début de service: 13h0 
+Heure de fin de service: 13h15 
+
+Client n°10
+Heure d'arrivée: 13h30 
+Temps d'attente 0h0 
+Heure du début de service: 13h30 
+Heure de fin de service: 13h45 
+
+Client n°11
+Heure d'arrivée: 14h0 
+Temps d'attente 0h0 
+Heure du début de service: 14h0 
+Heure de fin de service: 14h15 
+
+Client n°12
+Heure d'arrivée: 14h30 
+Temps d'attente 0h0 
+Heure du début de service: 14h30 
+Heure de fin de service: 14h45 
+
+Client n°13
+Heure d'arrivée: 15h0 
+Temps d'attente 0h0 
+Heure du début de service: 15h0 
+Heure de fin de service: 15h15 
+
+Client n°14
+Heure d'arrivée: 15h30 
+Temps d'attente 0h0 
+Heure du début de service: 15h30 
+Heure de fin de service: 15h45 
+
+Client n°15
+Heure d'arrivée: 16h0 
+Temps d'attente 0h0 
+Heure du début de service: 16h0 
+Heure de fin de service: 16h15 
+
+Client n°16
+Heure d'arrivée: 16h30 
+Temps d'attente 0h0 
+Heure du début de service: 16h30 
+Heure de fin de service: 16h45 
+
+
+
+-----------------------------------
+
+
+
+Journée numéro : 7
+Client n°1
+Heure d'arrivée: 9h0 
+Temps d'attente 0h0 
+Heure du début de service: 9h0 
+Heure de fin de service: 9h15 
+
+Client n°2
+Heure d'arrivée: 9h30 
+Temps d'attente 0h0 
+Heure du début de service: 9h30 
+Heure de fin de service: 9h45 
+
+Client n°3
+Heure d'arrivée: 10h0 
+Temps d'attente 0h0 
+Heure du début de service: 10h0 
+Heure de fin de service: 10h15 
+
+Client n°4
+Heure d'arrivée: 10h30 
+Temps d'attente 0h0 
+Heure du début de service: 10h30 
+Heure de fin de service: 10h45 
+
+Client n°5
+Heure d'arrivée: 11h0 
+Temps d'attente 0h0 
+Heure du début de service: 11h0 
+Heure de fin de service: 11h15 
+
+Client n°6
+Heure d'arrivée: 11h30 
+Temps d'attente 0h0 
+Heure du début de service: 11h30 
+Heure de fin de service: 11h45 
+
+Client n°7
+Heure d'arrivée: 12h0 
+Temps d'attente 0h0 
+Heure du début de service: 12h0 
+Heure de fin de service: 12h15 
+
+Client n°8
+Heure d'arrivée: 12h30 
+Temps d'attente 0h0 
+Heure du début de service: 12h30 
+Heure de fin de service: 12h45 
+
+Client n°9
+Heure d'arrivée: 13h0 
+Temps d'attente 0h0 
+Heure du début de service: 13h0 
+Heure de fin de service: 13h15 
+
+Client n°10
+Heure d'arrivée: 13h30 
+Temps d'attente 0h0 
+Heure du début de service: 13h30 
+Heure de fin de service: 13h45 
+
+Client n°11
+Heure d'arrivée: 14h0 
+Temps d'attente 0h0 
+Heure du début de service: 14h0 
+Heure de fin de service: 14h15 
+
+Client n°12
+Heure d'arrivée: 14h30 
+Temps d'attente 0h0 
+Heure du début de service: 14h30 
+Heure de fin de service: 14h45 
+
+Client n°13
+Heure d'arrivée: 15h0 
+Temps d'attente 0h0 
+Heure du début de service: 15h0 
+Heure de fin de service: 15h15 
+
+Client n°14
+Heure d'arrivée: 15h30 
+Temps d'attente 0h0 
+Heure du début de service: 15h30 
+Heure de fin de service: 15h45 
+
+Client n°15
+Heure d'arrivée: 16h0 
+Temps d'attente 0h0 
+Heure du début de service: 16h0 
+Heure de fin de service: 16h15 
+
+Client n°16
+Heure d'arrivée: 16h30 
+Temps d'attente 0h0 
+Heure du début de service: 16h30 
+Heure de fin de service: 16h45 
+
+
+
+-----------------------------------
+
+
+
+Journée numéro : 8
+Client n°1
+Heure d'arrivée: 9h0 
+Temps d'attente 0h0 
+Heure du début de service: 9h0 
+Heure de fin de service: 9h15 
+
+Client n°2
+Heure d'arrivée: 9h30 
+Temps d'attente 0h0 
+Heure du début de service: 9h30 
+Heure de fin de service: 9h45 
+
+Client n°3
+Heure d'arrivée: 10h0 
+Temps d'attente 0h0 
+Heure du début de service: 10h0 
+Heure de fin de service: 10h15 
+
+Client n°4
+Heure d'arrivée: 10h30 
+Temps d'attente 0h0 
+Heure du début de service: 10h30 
+Heure de fin de service: 10h45 
+
+Client n°5
+Heure d'arrivée: 11h0 
+Temps d'attente 0h0 
+Heure du début de service: 11h0 
+Heure de fin de service: 11h15 
+
+Client n°6
+Heure d'arrivée: 11h30 
+Temps d'attente 0h0 
+Heure du début de service: 11h30 
+Heure de fin de service: 11h45 
+
+Client n°7
+Heure d'arrivée: 12h0 
+Temps d'attente 0h0 
+Heure du début de service: 12h0 
+Heure de fin de service: 12h15 
+
+Client n°8
+Heure d'arrivée: 12h30 
+Temps d'attente 0h0 
+Heure du début de service: 12h30 
+Heure de fin de service: 12h45 
+
+Client n°9
+Heure d'arrivée: 13h0 
+Temps d'attente 0h0 
+Heure du début de service: 13h0 
+Heure de fin de service: 13h15 
+
+Client n°10
+Heure d'arrivée: 13h30 
+Temps d'attente 0h0 
+Heure du début de service: 13h30 
+Heure de fin de service: 13h45 
+
+Client n°11
+Heure d'arrivée: 14h0 
+Temps d'attente 0h0 
+Heure du début de service: 14h0 
+Heure de fin de service: 14h15 
+
+Client n°12
+Heure d'arrivée: 14h30 
+Temps d'attente 0h0 
+Heure du début de service: 14h30 
+Heure de fin de service: 14h45 
+
+Client n°13
+Heure d'arrivée: 15h0 
+Temps d'attente 0h0 
+Heure du début de service: 15h0 
+Heure de fin de service: 15h15 
+
+Client n°14
+Heure d'arrivée: 15h30 
+Temps d'attente 0h0 
+Heure du début de service: 15h30 
+Heure de fin de service: 15h45 
+
+Client n°15
+Heure d'arrivée: 16h0 
+Temps d'attente 0h0 
+Heure du début de service: 16h0 
+Heure de fin de service: 16h15 
+
+Client n°16
+Heure d'arrivée: 16h30 
+Temps d'attente 0h0 
+Heure du début de service: 16h30 
+Heure de fin de service: 16h45 
+
+
+
+-----------------------------------
+
+
+

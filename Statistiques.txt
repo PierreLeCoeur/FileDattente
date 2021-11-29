@@ -1,0 +1,2 @@
+Taille moyenne de la file 0.000000
+La file d'attente la plus longue faisait 0 clients 

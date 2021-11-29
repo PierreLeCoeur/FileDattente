@@ -26,3 +26,4 @@ clean:
 #on supprime le fichier sinon on ajouterait la liste de clients à la simulation précédente
 fichier:
 	rm	"Liste Clients.txt"
+	rm  "Statistiques.txt"

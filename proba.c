@@ -26,7 +26,7 @@ float tempsService (int lbd)
     return T;
 }
 
-void ajouterClient(Client *tete, float tempsEcart, float tempsService,float *totale_attente)
+void ajouterClient(Client *tete, float tempsEcart, float tempsService,float *totale_attente, int *compteurClients)
 {
     Client *nouveau;
     nouveau = (Client *)malloc(sizeof(Client));
@@ -47,6 +47,8 @@ void ajouterClient(Client *tete, float tempsEcart, float tempsService,float *tot
         nouveau->h_guichet = nouveau->h_arrivee;
         nouveau->h_sortie = nouveau->h_guichet + tempsService;
         nouveau->t_service = tempsService;
+        *totale_attente += *totale_attente;
+        *compteurClients ++;
 
     }
     else
@@ -64,12 +66,14 @@ void ajouterClient(Client *tete, float tempsEcart, float tempsService,float *tot
             nouveau->h_sortie = nouveau->h_guichet + tempsService;
             nouveau->t_service = tempsService;
             nouveau->t_attente = dernier->h_sortie - nouveau->h_arrivee;
+            *totale_attente += *totale_attente;
+            *compteurClients ++;
         }
     }
     nouveau->suiv = NULL;
 }
 
-void premierClient(Client *tete,float tempsEcart,float tempsService,float *totale_attente)
+void premierClient(Client *tete,float tempsEcart,float tempsService)
 {
     Client *nouveau;
     nouveau = (Client *)malloc(sizeof(Client));
@@ -81,7 +85,6 @@ void premierClient(Client *tete,float tempsEcart,float tempsService,float *total
     nouveau->t_service = tempsService;
     nouveau->h_sortie = nouveau->h_guichet + tempsService;
     nouveau->suiv = NULL;
-    *totale_attente = nouveau->t_attente;
 }
 
 void affichageListe(Client *tete)
@@ -134,9 +137,40 @@ void afficherHeure(float temps)
     heures = conversionMinutesHeure(temps,&minutes);
     printf("%d heure(s)  %d minute(s) \n",heures,minutes);
 }
-int ecritureFichiersStats( float moyenneTaille,int tailleMaxFile,float debit,float tauxNonServi,float tempsReponse)
+int ecritureFichiersStats( Stats *teteStats)
 {
     FILE *fichier;
+    fichier = fopen(FICHIER_STATS,"a+");
+    if(fichier == NULL)
+    {
+        printf("echec ouverture fichier");
+        return 0;
+    }
+    else
+    {
+        float tailleMoyenneFile = 0;
+        int compteurTailleMoyenne = 0;
+        int tailleMax=0;
+        Stats *courant=teteStats->suiv;
+        while (courant->suiv != NULL)
+        {
+            tailleMoyenneFile += courant->tailleMoy;
+            compteurTailleMoyenne ++;
+            if (tailleMax<courant->tailleMax)
+            {
+                tailleMax = courant->tailleMax;
+            }
+            courant =  courant ->suiv;
+        }
+        
+        float tailleMoyTot = tailleMoyenneFile/compteurTailleMoyenne;
+
+        fprintf(fichier,"Taille moyenne de la file %f\n",tailleMoyTot);
+        fprintf(fichier,"La file d'attente la plus longue faisait %d clients \n",tailleMax);
+
+
+        return 1;
+    }
 
 }
 //Boolen; renvoie 0 pour echec d'ouverture, 1 sinon
@@ -193,7 +227,7 @@ int conversionMinutesHeure(float heure,int *minutes)
 void nouvelleJournee(int lambda,Liste *ListesClients,int journee, Stats *teteStats)
 {
     float totale_attente = 0;
-    premierClient(ListesClients->tete, ecartArrivee(lambda),tempsService(lambda),&totale_attente);
+    premierClient(ListesClients->tete, ecartArrivee(lambda),tempsService(lambda));
 
     float h_actual=heureArriveeDernier((ListesClients->tete)->suiv);
     int compteurClients=0;
@@ -205,10 +239,8 @@ void nouvelleJournee(int lambda,Liste *ListesClients,int journee, Stats *teteSta
         float t_service = tempsService(lambda);
         if(h_actual+t_ecart<HEURE_FIN_ENTREE)
         {
-            ajouterClient(ListesClients->tete, t_ecart, t_service,&totale_attente);
+            ajouterClient(ListesClients->tete, t_ecart, t_service,&totale_attente,&compteurClients);
             h_actual = heureArriveeDernier(ListesClients->tete);
-            compteurClients ++;
-            totale_attente += totale_attente;
             
         }
         else
@@ -220,6 +252,10 @@ void nouvelleJournee(int lambda,Liste *ListesClients,int journee, Stats *teteSta
     teteArrivee.suiv =(HeureArrivee *)malloc(sizeof(HeureArrivee));
     TailleFile teteFile;
     teteFile.suiv = (TailleFile *)malloc(sizeof(TailleFile));
+    TailleFile premierClient;
+    teteFile.suiv = &premierClient;
+    premierClient.taille=0;
+    premierClient.suiv=NULL;
 
     
     remplissageHGuichet(ListesClients->tete,&teteGuichet);
@@ -236,7 +272,7 @@ void nouvelleJournee(int lambda,Liste *ListesClients,int journee, Stats *teteSta
     nouveauStats->tailleMoy = tailleMoyenneFile(&teteFile,&teteGuichet,&teteArrivee);
     nouveauStats->tailleMax = tailleMax(&teteFile);
     nouveauStats->debit_journalier=compteurClients;
-    nouveauStats->tempsRep = totale_attente/compteurClients;//Probleme quand clients ne sont pas servis, doit on les prendre en compte ?
+    nouveauStats->tempsRep = (0+totale_attente)/(compteurClients+1);//Cas où clients pas servis pas pris en compte
 }
 
 int tailleMax(TailleFile *teteFile)
@@ -366,6 +402,5 @@ float tailleMoyenneFile(TailleFile *teteTaille, HeureGuichet *teteGuichet, Heure
         compteurChangementFile ++;
         courantFile = courantFile->suiv;
     }
-    //printf("%d",compteurChangementFile);
     return moyenneFile/compteurChangementFile;
 } 
