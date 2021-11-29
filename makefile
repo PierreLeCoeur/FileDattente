@@ -4,8 +4,7 @@ EXEC = fileDattente
 SRC = $(wildcard *.c )
 OBJ = $(SRC:.c=.o)
 
-all: fileDattente
-
+all: fileDattente	fichier 
 #$(EXEC): $(OBJ)
 #	$(CC)  $< -o $@
 
@@ -22,5 +21,8 @@ proba.o: proba.c proba.h
 	gcc -c -g proba.c
 
 clean: 
-	rm *.o  fileDattente "Liste Clients"
+	rm *.o  fileDattente 
 
+#on supprime le fichier sinon on ajouterait la liste de clients à la simulation précédente
+fichier:
+	rm	"Liste Clients.txt"
