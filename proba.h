@@ -46,7 +46,7 @@ Client *tete;
 
 
 float ecartArrivee (int lbd);
-void ajouterClient(Client *tete, float tempsEcart, float tempsService,float *totale_attente, int *compteurClients);
+void ajouterClient(Client *tete, float tempsEcart, float tempsService,float *totale_attente, int *compteurClients, int *compteur_nonServis);
 void premierClient(Client *tete,float tempsEcart,float tempsService);
 void affichageListe(Client *tete);
 float tempsService (int lbd);
