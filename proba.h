@@ -5,6 +5,7 @@ float t_attente;
 float h_guichet;
 float t_service;
 float h_sortie;
+
 struct Client *suiv;
 } Client;
 
@@ -43,13 +44,17 @@ Client *tete;
 #define HEURE_START 510 // 8h30
 #define HEURE_END 1050  // 17h30
 #define HEURE_FIN_ENTREE 1020 //17h
+#define MINSRV 2 // minimum du temps de service
+#define MAXSRV 10 // maximum du temps de service
+#define LAMBDA 0.2 // paramètre de la loi exponentielle
+#include <time.h>
+#include <math.h>
 
-
-float ecartArrivee (int lbd);
+float ecartArrivee ();
 void ajouterClient(Client *tete, float tempsEcart, float tempsService,float *totale_attente, int *compteurClients, int *compteur_nonServis);
 void premierClient(Client *tete,float tempsEcart,float tempsService);
 void affichageListe(Client *tete);
-float tempsService (int lbd);
+float tempsService ();
 float heureArriveeDernier(Client *tete);
 void afficherHeure(float temps);
 int conversionMinutesHeure(float heure,int *minutes);

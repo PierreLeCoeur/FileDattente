@@ -2,29 +2,23 @@
 #include <stdlib.h>
 #include <time.h>
 #include "proba.h"
-
-
-float ecartArrivee (int lbd)
+float LoiUnitaire()
 {
-    /*
-    float U=0;
-    srand(time(NULL));
-    U=(float)rand();//(float)RAND_MAX;
-    */
-    float T=5;
-    return T;
+	float nombre = 0;
+	nombre = (float)rand() / (float)RAND_MAX;
+	return nombre;
 }
 
-float tempsService (int lbd)
+float ecartArrivee()
 {
-
-   // float U=0;
-   // srand(time(NULL));
-    //U=(float)rand();//(float)RAND_MAX;
-
-    float T=90;
-    return T;
+	return -logf(1.0 - LoiUnitaire()) / LAMBDA;
 }
+
+float tempsService()
+{
+	return (MINSRV+LoiUnitaire()*(MAXSRV-MINSRV));
+}
+
 
 void ajouterClient(Client *tete, float tempsEcart, float tempsService,float *totale_attente, int *compteurClients, int *compteur_nonServis)
 {

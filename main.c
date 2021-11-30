@@ -4,6 +4,7 @@
 
 int main()
 {
+    srand(time(NULL));
     int nombreJournee;
     printf("Combien de Journée a simuler ?\n");
     scanf("%d",&nombreJournee);
