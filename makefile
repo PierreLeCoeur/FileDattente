@@ -12,14 +12,14 @@ all: fileDattente
 #%.o : %.c %.h
 #	$(CC) $(CFLAGS) $< 
 
-fileDattente:	main.o proba.o 
-	gcc main.o proba.o -o fileDattente -lm
+fileDattente:	main.o fonctions.o 
+	gcc main.o fonctions.o -o fileDattente -lm -Wall 
 
 main.o: main.c
-	gcc -c -g main.c -lm
+	gcc -c -g main.c -lm -Wall 
 
-proba.o: proba.c proba.h 
-	gcc -c -g proba.c -lm
+fonctions.o: fonctions.c fonctions.h 
+	gcc -c -g fonctions.c -lm -Wall 
 
 clean: 
 	rm *.o  fileDattente 
