@@ -1,9 +1,9 @@
 # FileDattente
-tEST MODIF
+Afin de compiler le programme, taper "make all" dans le terminal, ouvert dans le répertoire
+Puis, "./fileDattente" pour éxecuter le programme.
+Ensuite, choisir le nombre de journées à simuler
+Pour finir, c'est à vous de fixer le paramètre lambda, influencant le temps d'écart entre l'heure d'arrivée de 2 clients.
 
-
-https://www.notion.so/zarkom/Introduction-to-Git-ac396a0697704709a12b6a0e545db049#90547dd920ae47bb987c6e2b40f880e7
-
-https://stackoverflow.com/questions/8588768/how-do-i-avoid-the-specification-of-the-username-and-password-at-every-git-push
-
-https://www.youtube.com/watch?v=_r7i5X0rXJk : tutot makefile
+Le programme va créer deux fichiers .txt
+ListeCLients.txt contiendra la liste de tous les clients de toutes les journées.
+Statistiques.txt contiendra les statistiques sur toutes les journées de la simulation.
