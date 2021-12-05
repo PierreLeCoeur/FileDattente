@@ -53,6 +53,7 @@ Client *tete;
 float ecartArrivee ();
 void ajouterClient(Client *tete, float tempsEcart, float tempsService,float *totale_attente, int *compteurClients, int *compteur_nonServis);
 void premierClient(Client *tete,float tempsEcart,float tempsService);
+void premiereJournee(int lambda,Liste *ListesClients,int journee, Stats *teteStats);
 void affichageListe(Client *tete);
 float tempsService ();
 float heureArriveeDernier(Client *tete);

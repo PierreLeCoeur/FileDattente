@@ -13,7 +13,7 @@ int main()
     scanf("%d",&nombreJournee);
     float lambda = 4;
     
-    //Initialisation de la liste des clients
+    //Initialisation de la liste des clients et de la liste contenant les stats de la simulation
     Liste ListeClients;
     ListeClients.tete = (Client *)malloc(sizeof(Client));
     Stats teteStats;
@@ -24,10 +24,17 @@ int main()
     fichier = fopen(FICHIER_CLIENTS,"w+");
 
     //Simulation sur plusieurs jours et sauvegarde de la liste des clients et des statistiques de la simulation
+    
     for(int journee = 0; journee<nombreJournee ;journee++)
     {
-        nouvelleJournee(lambda,&ListeClients,journee,&teteStats);
-        ecritureFichiersClients(ListeClients.tete,journee);       
+        if(journee == 0)
+        {
+            premiereJournee(lambda,&ListeClients,journee,&teteStats);
+            ecritureFichiersClients(ListeClients.tete,journee);
+        }
+        else
+            nouvelleJournee(lambda,&ListeClients,journee,&teteStats);
+            ecritureFichiersClients(ListeClients.tete,journee);       
     }
     ecritureFichiersStats(&teteStats);
     //affichageListe(ListesClients.tete);

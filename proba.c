@@ -54,8 +54,7 @@ void ajouterClient(Client *tete,
         nouveau->h_sortie = nouveau->h_guichet + tempsService;
         nouveau->t_service = tempsService;
         *totale_attente += (nouveau->h_sortie-nouveau->h_arrivee);
-        *compteurClients++;
-
+        *compteurClients +=1;
     }
     else
     {
@@ -65,7 +64,7 @@ void ajouterClient(Client *tete,
             nouveau->t_service = 0;
             nouveau->h_sortie = HEURE_END;
             nouveau->t_attente = HEURE_END - nouveau->h_arrivee;
-            *compteur_nonServis++;
+            *compteur_nonServis += 1;
             
         }
         else
@@ -75,7 +74,7 @@ void ajouterClient(Client *tete,
             nouveau->t_service = tempsService;
             nouveau->t_attente = dernier->h_sortie - nouveau->h_arrivee;
             *totale_attente += nouveau->h_sortie - nouveau->h_arrivee;
-            *compteurClients ++;
+            *compteurClients += 1;
         }
     }
     nouveau->suiv = NULL;
@@ -162,8 +161,8 @@ int ecritureFichiersStats( Stats *teteStats)//Boolen; renvoie 0 pour echec d'ouv
         float tempsRepMoyTot=0;
         int tailleMax=0;
         float debitJournalierTot = 0;
-        Stats *courant=teteStats->suiv;
-        while (courant->suiv != NULL)
+        Stats *courant = teteStats->suiv;
+        while (courant != NULL)
         {
             tailleMoyTot += courant->tailleMoy;
             tempsRepMoyTot += courant->tempsRep;
@@ -245,7 +244,7 @@ void nouvelleJournee(int lambda,Liste *ListesClients,int journee, Stats *teteSta
     float totale_attente = 0;
     premierClient(ListesClients->tete, ecartArrivee(lambda),tempsService(lambda));
     float h_actual=heureArriveeDernier((ListesClients->tete)->suiv);
-    int compteurClients=0;
+    int compteurClients = 0;
     int compteur_debit = 1;
     int compteur_nonServis = 0;
     
@@ -295,8 +294,6 @@ void nouvelleJournee(int lambda,Liste *ListesClients,int journee, Stats *teteSta
     nouveauStats->tailleMoy = tailleMoyenneFile(&teteFile,&teteGuichet,&teteArrivee);
     nouveauStats->tailleMax = tailleMax(&teteFile);
     nouveauStats->debit_journalier = compteur_debit;
-    printf("Clients servis : %d\n",compteurClients);
-    printf("Clients non servis : %d\n",compteur_nonServis);
     nouveauStats->tempsRep = (0+totale_attente)/(compteurClients+1);//Cas où clients pas servis pas pris en compte
     nouveauStats->tauxNonServis = compteur_nonServis;
 }
@@ -433,3 +430,56 @@ HeureArrivee *teteArrivee)
     }
     return moyenneFile/compteurChangementFile;
 } 
+
+void premiereJournee(int lambda,Liste *ListesClients,int journee, Stats *teteStats)
+{
+    float totale_attente = 0;
+    premierClient(ListesClients->tete, ecartArrivee(lambda),tempsService(lambda));
+    float h_actual=heureArriveeDernier((ListesClients->tete)->suiv);
+    int compteurClients = 0;
+    int compteur_debit = 1;
+    int compteur_nonServis = 0;
+    
+    //Creation liste clients
+    while(h_actual<HEURE_FIN_ENTREE)
+    {
+        float t_ecart = ecartArrivee(lambda);
+        float t_service = tempsService(lambda);
+        if(h_actual+t_ecart<HEURE_FIN_ENTREE)
+        {
+            ajouterClient(ListesClients->tete, t_ecart, t_service,&totale_attente,&compteurClients,&compteur_nonServis);
+            h_actual = heureArriveeDernier(ListesClients->tete);
+            compteur_debit++;
+            
+        }
+        else
+            break;
+    }
+    
+    //Initialisation des listes chaînées permettant de récupérer les statistiques de la simulation
+    HeureGuichet teteGuichet;
+    teteGuichet.suiv =(HeureGuichet *)malloc(sizeof(HeureGuichet));
+    HeureArrivee teteArrivee;
+    teteArrivee.suiv =(HeureArrivee *)malloc(sizeof(HeureArrivee));
+    TailleFile teteFile;
+    teteFile.suiv = (TailleFile *)malloc(sizeof(TailleFile));
+    TailleFile premierClient;
+    teteFile.suiv = &premierClient;
+    premierClient.taille=0;
+    premierClient.suiv=NULL;
+
+    //Récupération des données de la nouvelle journée
+    remplissageHGuichet(ListesClients->tete,&teteGuichet);
+    remplissageHArrivee(ListesClients->tete,&teteArrivee);
+    
+    //On se place au début de la liste Stats on créé un nouvel élément qui correspondra à la première journée 
+    Stats *premierStats = teteStats->suiv;
+    
+    //On écrit les stats de la journée dans le premier élément
+    premierStats->suiv=NULL;
+    premierStats->tailleMoy = tailleMoyenneFile(&teteFile,&teteGuichet,&teteArrivee);
+    premierStats->tailleMax = tailleMax(&teteFile);
+    premierStats->debit_journalier = compteur_debit;
+    premierStats->tempsRep = (0+totale_attente)/(compteurClients+1);//Cas où les clients ne sont pas servis n'est pas pris en compte
+    premierStats->tauxNonServis = compteur_nonServis;
+}
