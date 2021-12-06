@@ -23,13 +23,7 @@ float tempsService()
 }
 
 
-void ajouterClient(Client *tete, 
-                    float tempsEcart, 
-                    float tempsService,
-                    float *totale_attente,
-                    int *compteurClients,
-                    int *compteur_nonServis
-                    )
+void ajouterClient(Client *tete, float tempsEcart, float tempsService, float *totale_attente, int *compteurClients, int *compteur_nonServis)
 {
     //Initialisation du nouvel élément de la liste chaînée
     Client *nouveau;
@@ -43,8 +37,7 @@ void ajouterClient(Client *tete,
         dernier = dernier->suiv;
     }
     dernier->suiv = nouveau;
-
-    //On entre les données du nouveu client en fonction du dernier
+//On entre les données du nouveu client en fonction du dernier
     nouveau->h_arrivee = dernier->h_arrivee + tempsEcart;
     if(nouveau->h_arrivee>dernier->h_sortie)//il n'y a personne quand le nouveau client arrive 
     {
@@ -64,7 +57,6 @@ void ajouterClient(Client *tete,
             nouveau->h_sortie = HEURE_END;
             nouveau->t_attente = HEURE_END - nouveau->h_arrivee;
             *compteur_nonServis += 1;
-            
         }
         else // Clients servis
         {
@@ -85,12 +77,26 @@ void premierClient(Client *tete,float tempsEcart,float tempsService)
     nouveau = (Client *)malloc(sizeof(Client));
 
     tete->suiv = nouveau;
+    if (HEURE_START + tempsEcart > 1020)
+    {
+    nouveau->h_arrivee = 0;
+    nouveau->h_guichet = 0;
+    nouveau->t_attente = 0;
+    nouveau->t_service = 0;
+    nouveau->h_sortie = 0;
+    nouveau->suiv = NULL;
+    printf ("pas de client ajd\n");
+
+    }
+    else 
+    {
     nouveau->h_arrivee = HEURE_START + tempsEcart;
     nouveau->h_guichet = nouveau->h_arrivee;
     nouveau->t_attente = 0;
     nouveau->t_service = tempsService;
     nouveau->h_sortie = nouveau->h_guichet + tempsService;
     nouveau->suiv = NULL;
+    }
 }
 
 //Ces 2 fonctions nous permettent de vérifier que la liste des clients est correctement créée
