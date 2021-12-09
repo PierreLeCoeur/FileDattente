@@ -201,7 +201,7 @@ int ecritureFichiersStats( Stats *teteStats)//Boolen; renvoie 0 pour echec d'ouv
         printf("La file d'attente la plus longue faisait %d client(s) \n",tailleMax);
         printf("En moyenne, le temps de réponse est de %f minutes \n",tempsRepMoyTot);
         printf("Le débit journalier est en moyenne de %f client(s) par jour \n",debitJournalierTot);
-        printf("En moyenne, %f client(s) ne sont pas servis chaque jour", nonServisMoy);
+        printf("En moyenne, %f client(s) ne sont pas servis chaque jour\n", nonServisMoy);
         
         fclose(fichier);
         return 1;
