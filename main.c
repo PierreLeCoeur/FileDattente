@@ -4,7 +4,9 @@
 
 int main()
 {
-    
+    float minserv=0;
+    float maxserv=0;
+
     srand(time(NULL));//Permet d'utiliser des nombres aléatoires
     //Paramètres de la simulation
     int nombreJournee;
@@ -16,6 +18,12 @@ int main()
         printf ("Erreur, veuillez entrer un entier strictement positif.\n");
         return 0;
     }   
+    printf("Que voulez vous comme temps de service maximum (en minutes) ?");
+    scanf("%f", &maxserv);
+    printf("Que voulez vous comme temps de service minimum (en minutes) ?");
+    scanf("%f", &minserv);
+
+
     float lambda = 0.2; //valeur par défaut
     printf("Lambda = \n");
     scanf("%f",&lambda);
@@ -33,7 +41,7 @@ int main()
     
     for(int journee = 0; journee<nombreJournee ;journee++)
     {
-        nouvelleJournee(lambda,&ListeClients,journee,&teteStats);
+        nouvelleJournee(lambda,&ListeClients,journee,&teteStats, minserv,maxserv);
         ecritureFichiersClients(ListeClients.tete,journee);       
     }
     ecritureFichiersStats(&teteStats);

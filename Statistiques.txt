@@ -1,5 +1,5 @@
-Taille moyenne de la file : 0.000000
-La file d'attente la plus longue faisait 0 client(s) 
-En moyenne, le temps de réponse est de 0.000000 minutes 
-Le débit journalier est en moyenne de 0.833333 client(s) par jour 
-En moyenne, 0.000000 client(s) ne sont pas servis chaque jour
+Taille moyenne de la file : 37.430256
+La file d'attente la plus longue faisait 102 client(s) 
+En moyenne, le temps de réponse est de 214.902939 minutes 
+Le débit journalier est en moyenne de 89.833336 client(s) par jour 
+En moyenne, 37.500000 client(s) ne sont pas servis chaque jour

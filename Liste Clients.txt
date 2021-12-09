@@ -1,10 +1,586 @@
 Journée numéro : 1
 
 Client n°1
-Heure d'arrivée: 5128h41 
+Heure d'arrivée: 8h32 
 Temps d'attente 0h0 
-Heure du début de service: 5128h41 
-Heure de fin de service: 5128h48 
+Heure du début de service: 8h32 
+Heure de fin de service: 8h54 
+
+Client n°2
+Heure d'arrivée: 8h37 
+Temps d'attente 0h16 
+Heure du début de service: 8h54 
+Heure de fin de service: 9h26 
+
+Client n°3
+Heure d'arrivée: 8h39 
+Temps d'attente 0h46 
+Heure du début de service: 9h26 
+Heure de fin de service: 9h54 
+
+Client n°4
+Heure d'arrivée: 8h44 
+Temps d'attente 1h9 
+Heure du début de service: 9h54 
+Heure de fin de service: 10h23 
+
+Client n°5
+Heure d'arrivée: 8h45 
+Temps d'attente 1h37 
+Heure du début de service: 10h23 
+Heure de fin de service: 10h45 
+
+Client n°6
+Heure d'arrivée: 8h46 
+Temps d'attente 1h58 
+Heure du début de service: 10h45 
+Heure de fin de service: 11h12 
+
+Client n°7
+Heure d'arrivée: 8h48 
+Temps d'attente 2h23 
+Heure du début de service: 11h12 
+Heure de fin de service: 11h54 
+
+Client n°8
+Heure d'arrivée: 8h53 
+Temps d'attente 3h1 
+Heure du début de service: 11h54 
+Heure de fin de service: 12h32 
+
+Client n°9
+Heure d'arrivée: 8h56 
+Temps d'attente 3h36 
+Heure du début de service: 12h32 
+Heure de fin de service: 12h49 
+
+Client n°10
+Heure d'arrivée: 9h2 
+Temps d'attente 3h47 
+Heure du début de service: 12h49 
+Heure de fin de service: 13h19 
+
+Client n°11
+Heure d'arrivée: 9h4 
+Temps d'attente 4h14 
+Heure du début de service: 13h19 
+Heure de fin de service: 14h4 
+
+Client n°12
+Heure d'arrivée: 9h4 
+Temps d'attente 4h59 
+Heure du début de service: 14h4 
+Heure de fin de service: 14h50 
+
+Client n°13
+Heure d'arrivée: 9h7 
+Temps d'attente 5h43 
+Heure du début de service: 14h50 
+Heure de fin de service: 15h7 
+
+Client n°14
+Heure d'arrivée: 9h8 
+Temps d'attente 5h59 
+Heure du début de service: 15h7 
+Heure de fin de service: 15h43 
+
+Client n°15
+Heure d'arrivée: 9h9 
+Temps d'attente 6h34 
+Heure du début de service: 15h43 
+Heure de fin de service: 16h6 
+
+Client n°16
+Heure d'arrivée: 9h12 
+Temps d'attente 6h53 
+Heure du début de service: 16h6 
+Heure de fin de service: 16h33 
+
+Client n°17
+Heure d'arrivée: 9h18 
+Temps d'attente 7h14 
+Heure du début de service: 16h33 
+Heure de fin de service: 16h51 
+
+Client n°18
+Heure d'arrivée: 9h38 
+Temps d'attente 7h12 
+Heure du début de service: 16h51 
+Heure de fin de service: 17h1 
+
+Client n°19
+Heure d'arrivée: 9h44 
+Temps d'attente 7h17 
+Heure du début de service: 17h1 
+Heure de fin de service: 17h37 
+
+Client n°20
+Heure d'arrivée: 9h47 
+Temps d'attente 7h42 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°21
+Heure d'arrivée: 10h1 
+Temps d'attente 7h28 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h4 
+
+Client n°22
+Heure d'arrivée: 10h2 
+Temps d'attente 7h27 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°23
+Heure d'arrivée: 10h5 
+Temps d'attente 7h24 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h15 
+
+Client n°24
+Heure d'arrivée: 10h25 
+Temps d'attente 7h4 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°25
+Heure d'arrivée: 10h25 
+Temps d'attente 7h4 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h7 
+
+Client n°26
+Heure d'arrivée: 10h27 
+Temps d'attente 7h2 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°27
+Heure d'arrivée: 10h31 
+Temps d'attente 6h58 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h53 
+
+Client n°28
+Heure d'arrivée: 10h33 
+Temps d'attente 6h56 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°29
+Heure d'arrivée: 10h36 
+Temps d'attente 6h53 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h1 
+
+Client n°30
+Heure d'arrivée: 10h41 
+Temps d'attente 6h48 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°31
+Heure d'arrivée: 10h51 
+Temps d'attente 6h38 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h45 
+
+Client n°32
+Heure d'arrivée: 10h51 
+Temps d'attente 6h38 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°33
+Heure d'arrivée: 10h53 
+Temps d'attente 6h36 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h42 
+
+Client n°34
+Heure d'arrivée: 10h57 
+Temps d'attente 6h32 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°35
+Heure d'arrivée: 11h3 
+Temps d'attente 6h26 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h40 
+
+Client n°36
+Heure d'arrivée: 11h10 
+Temps d'attente 6h19 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°37
+Heure d'arrivée: 11h15 
+Temps d'attente 6h14 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h19 
+
+Client n°38
+Heure d'arrivée: 11h28 
+Temps d'attente 6h1 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°39
+Heure d'arrivée: 11h38 
+Temps d'attente 5h51 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h15 
+
+Client n°40
+Heure d'arrivée: 11h48 
+Temps d'attente 5h41 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°41
+Heure d'arrivée: 11h53 
+Temps d'attente 5h36 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h48 
+
+Client n°42
+Heure d'arrivée: 11h55 
+Temps d'attente 5h34 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°43
+Heure d'arrivée: 11h58 
+Temps d'attente 5h31 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h5 
+
+Client n°44
+Heure d'arrivée: 11h59 
+Temps d'attente 5h30 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°45
+Heure d'arrivée: 12h0 
+Temps d'attente 5h29 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h6 
+
+Client n°46
+Heure d'arrivée: 12h6 
+Temps d'attente 5h23 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°47
+Heure d'arrivée: 12h13 
+Temps d'attente 5h16 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h10 
+
+Client n°48
+Heure d'arrivée: 12h18 
+Temps d'attente 5h11 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°49
+Heure d'arrivée: 12h26 
+Temps d'attente 5h3 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h46 
+
+Client n°50
+Heure d'arrivée: 12h27 
+Temps d'attente 5h2 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°51
+Heure d'arrivée: 12h28 
+Temps d'attente 5h1 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h13 
+
+Client n°52
+Heure d'arrivée: 12h29 
+Temps d'attente 5h0 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°53
+Heure d'arrivée: 12h38 
+Temps d'attente 4h51 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h42 
+
+Client n°54
+Heure d'arrivée: 12h48 
+Temps d'attente 4h41 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°55
+Heure d'arrivée: 13h4 
+Temps d'attente 4h25 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h9 
+
+Client n°56
+Heure d'arrivée: 13h9 
+Temps d'attente 4h20 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°57
+Heure d'arrivée: 13h23 
+Temps d'attente 4h6 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h17 
+
+Client n°58
+Heure d'arrivée: 13h29 
+Temps d'attente 4h0 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°59
+Heure d'arrivée: 13h33 
+Temps d'attente 3h56 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h9 
+
+Client n°60
+Heure d'arrivée: 13h37 
+Temps d'attente 3h52 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°61
+Heure d'arrivée: 13h39 
+Temps d'attente 3h50 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h48 
+
+Client n°62
+Heure d'arrivée: 13h47 
+Temps d'attente 3h42 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°63
+Heure d'arrivée: 14h10 
+Temps d'attente 3h19 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h54 
+
+Client n°64
+Heure d'arrivée: 14h11 
+Temps d'attente 3h18 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°65
+Heure d'arrivée: 14h15 
+Temps d'attente 3h14 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h53 
+
+Client n°66
+Heure d'arrivée: 14h17 
+Temps d'attente 3h12 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°67
+Heure d'arrivée: 14h18 
+Temps d'attente 3h11 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h59 
+
+Client n°68
+Heure d'arrivée: 14h22 
+Temps d'attente 3h7 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°69
+Heure d'arrivée: 14h26 
+Temps d'attente 3h3 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h55 
+
+Client n°70
+Heure d'arrivée: 14h33 
+Temps d'attente 2h56 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°71
+Heure d'arrivée: 14h34 
+Temps d'attente 2h55 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h54 
+
+Client n°72
+Heure d'arrivée: 14h34 
+Temps d'attente 2h55 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°73
+Heure d'arrivée: 14h36 
+Temps d'attente 2h53 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h9 
+
+Client n°74
+Heure d'arrivée: 14h40 
+Temps d'attente 2h49 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°75
+Heure d'arrivée: 14h43 
+Temps d'attente 2h46 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h42 
+
+Client n°76
+Heure d'arrivée: 14h48 
+Temps d'attente 2h41 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°77
+Heure d'arrivée: 14h49 
+Temps d'attente 2h40 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h56 
+
+Client n°78
+Heure d'arrivée: 14h50 
+Temps d'attente 2h39 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°79
+Heure d'arrivée: 14h57 
+Temps d'attente 2h32 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h51 
+
+Client n°80
+Heure d'arrivée: 14h58 
+Temps d'attente 2h31 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°81
+Heure d'arrivée: 15h3 
+Temps d'attente 2h26 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h57 
+
+Client n°82
+Heure d'arrivée: 15h3 
+Temps d'attente 2h26 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°83
+Heure d'arrivée: 15h15 
+Temps d'attente 2h14 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h3 
+
+Client n°84
+Heure d'arrivée: 15h25 
+Temps d'attente 2h4 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°85
+Heure d'arrivée: 15h44 
+Temps d'attente 1h45 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h4 
+
+Client n°86
+Heure d'arrivée: 16h3 
+Temps d'attente 1h26 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°87
+Heure d'arrivée: 16h20 
+Temps d'attente 1h9 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h41 
+
+Client n°88
+Heure d'arrivée: 16h21 
+Temps d'attente 1h8 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°89
+Heure d'arrivée: 16h28 
+Temps d'attente 1h1 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h8 
+
+Client n°90
+Heure d'arrivée: 16h29 
+Temps d'attente 1h0 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°91
+Heure d'arrivée: 16h37 
+Temps d'attente 0h52 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h12 
+
+Client n°92
+Heure d'arrivée: 16h37 
+Temps d'attente 0h52 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°93
+Heure d'arrivée: 16h39 
+Temps d'attente 0h50 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h43 
+
+Client n°94
+Heure d'arrivée: 16h41 
+Temps d'attente 0h48 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°95
+Heure d'arrivée: 16h43 
+Temps d'attente 0h46 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h57 
+
+Client n°96
+Heure d'arrivée: 16h45 
+Temps d'attente 0h44 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°97
+Heure d'arrivée: 16h55 
+Temps d'attente 0h34 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h55 
 
 
 
@@ -15,10 +591,610 @@ Heure de fin de service: 5128h48
 Journée numéro : 2
 
 Client n°1
-Heure d'arrivée: 7465h36 
+Heure d'arrivée: 8h36 
 Temps d'attente 0h0 
-Heure du début de service: 7465h36 
-Heure de fin de service: 7465h44 
+Heure du début de service: 8h36 
+Heure de fin de service: 9h25 
+
+Client n°2
+Heure d'arrivée: 8h37 
+Temps d'attente 0h47 
+Heure du début de service: 9h25 
+Heure de fin de service: 10h12 
+
+Client n°3
+Heure d'arrivée: 8h39 
+Temps d'attente 1h32 
+Heure du début de service: 10h12 
+Heure de fin de service: 10h31 
+
+Client n°4
+Heure d'arrivée: 8h40 
+Temps d'attente 1h51 
+Heure du début de service: 10h31 
+Heure de fin de service: 10h53 
+
+Client n°5
+Heure d'arrivée: 8h41 
+Temps d'attente 2h11 
+Heure du début de service: 10h53 
+Heure de fin de service: 11h12 
+
+Client n°6
+Heure d'arrivée: 8h45 
+Temps d'attente 2h26 
+Heure du début de service: 11h12 
+Heure de fin de service: 11h23 
+
+Client n°7
+Heure d'arrivée: 8h59 
+Temps d'attente 2h23 
+Heure du début de service: 11h23 
+Heure de fin de service: 12h2 
+
+Client n°8
+Heure d'arrivée: 9h0 
+Temps d'attente 3h2 
+Heure du début de service: 12h2 
+Heure de fin de service: 12h40 
+
+Client n°9
+Heure d'arrivée: 9h4 
+Temps d'attente 3h36 
+Heure du début de service: 12h40 
+Heure de fin de service: 13h3 
+
+Client n°10
+Heure d'arrivée: 9h11 
+Temps d'attente 3h51 
+Heure du début de service: 13h3 
+Heure de fin de service: 13h44 
+
+Client n°11
+Heure d'arrivée: 9h14 
+Temps d'attente 4h29 
+Heure du début de service: 13h44 
+Heure de fin de service: 13h59 
+
+Client n°12
+Heure d'arrivée: 9h22 
+Temps d'attente 4h37 
+Heure du début de service: 13h59 
+Heure de fin de service: 14h41 
+
+Client n°13
+Heure d'arrivée: 9h26 
+Temps d'attente 5h15 
+Heure du début de service: 14h41 
+Heure de fin de service: 14h55 
+
+Client n°14
+Heure d'arrivée: 9h34 
+Temps d'attente 5h20 
+Heure du début de service: 14h55 
+Heure de fin de service: 15h23 
+
+Client n°15
+Heure d'arrivée: 9h38 
+Temps d'attente 5h44 
+Heure du début de service: 15h23 
+Heure de fin de service: 16h0 
+
+Client n°16
+Heure d'arrivée: 9h39 
+Temps d'attente 6h21 
+Heure du début de service: 16h0 
+Heure de fin de service: 16h29 
+
+Client n°17
+Heure d'arrivée: 9h42 
+Temps d'attente 6h46 
+Heure du début de service: 16h29 
+Heure de fin de service: 16h57 
+
+Client n°18
+Heure d'arrivée: 9h44 
+Temps d'attente 7h12 
+Heure du début de service: 16h57 
+Heure de fin de service: 17h36 
+
+Client n°19
+Heure d'arrivée: 9h50 
+Temps d'attente 7h39 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°20
+Heure d'arrivée: 9h50 
+Temps d'attente 7h39 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h17 
+
+Client n°21
+Heure d'arrivée: 9h55 
+Temps d'attente 7h34 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°22
+Heure d'arrivée: 10h11 
+Temps d'attente 7h18 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h3 
+
+Client n°23
+Heure d'arrivée: 10h13 
+Temps d'attente 7h16 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°24
+Heure d'arrivée: 10h15 
+Temps d'attente 7h14 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h15 
+
+Client n°25
+Heure d'arrivée: 10h19 
+Temps d'attente 7h10 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°26
+Heure d'arrivée: 10h24 
+Temps d'attente 7h5 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h17 
+
+Client n°27
+Heure d'arrivée: 10h25 
+Temps d'attente 7h4 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°28
+Heure d'arrivée: 10h32 
+Temps d'attente 6h57 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h10 
+
+Client n°29
+Heure d'arrivée: 10h36 
+Temps d'attente 6h53 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°30
+Heure d'arrivée: 10h37 
+Temps d'attente 6h52 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h41 
+
+Client n°31
+Heure d'arrivée: 10h38 
+Temps d'attente 6h51 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°32
+Heure d'arrivée: 10h42 
+Temps d'attente 6h47 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h6 
+
+Client n°33
+Heure d'arrivée: 10h52 
+Temps d'attente 6h37 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°34
+Heure d'arrivée: 10h55 
+Temps d'attente 6h34 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h1 
+
+Client n°35
+Heure d'arrivée: 10h57 
+Temps d'attente 6h32 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°36
+Heure d'arrivée: 11h0 
+Temps d'attente 6h29 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h40 
+
+Client n°37
+Heure d'arrivée: 11h0 
+Temps d'attente 6h29 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°38
+Heure d'arrivée: 11h5 
+Temps d'attente 6h24 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h57 
+
+Client n°39
+Heure d'arrivée: 11h10 
+Temps d'attente 6h19 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°40
+Heure d'arrivée: 11h12 
+Temps d'attente 6h17 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h46 
+
+Client n°41
+Heure d'arrivée: 11h30 
+Temps d'attente 5h59 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°42
+Heure d'arrivée: 11h30 
+Temps d'attente 5h59 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h47 
+
+Client n°43
+Heure d'arrivée: 11h33 
+Temps d'attente 5h56 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°44
+Heure d'arrivée: 11h48 
+Temps d'attente 5h41 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h18 
+
+Client n°45
+Heure d'arrivée: 11h50 
+Temps d'attente 5h39 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°46
+Heure d'arrivée: 11h50 
+Temps d'attente 5h39 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h6 
+
+Client n°47
+Heure d'arrivée: 11h54 
+Temps d'attente 5h35 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°48
+Heure d'arrivée: 11h56 
+Temps d'attente 5h33 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h57 
+
+Client n°49
+Heure d'arrivée: 11h59 
+Temps d'attente 5h30 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°50
+Heure d'arrivée: 12h17 
+Temps d'attente 5h12 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h10 
+
+Client n°51
+Heure d'arrivée: 12h18 
+Temps d'attente 5h11 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°52
+Heure d'arrivée: 12h25 
+Temps d'attente 5h4 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h51 
+
+Client n°53
+Heure d'arrivée: 12h34 
+Temps d'attente 4h55 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°54
+Heure d'arrivée: 12h41 
+Temps d'attente 4h48 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h59 
+
+Client n°55
+Heure d'arrivée: 12h42 
+Temps d'attente 4h47 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°56
+Heure d'arrivée: 12h47 
+Temps d'attente 4h42 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h48 
+
+Client n°57
+Heure d'arrivée: 12h47 
+Temps d'attente 4h42 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°58
+Heure d'arrivée: 12h50 
+Temps d'attente 4h39 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h59 
+
+Client n°59
+Heure d'arrivée: 12h54 
+Temps d'attente 4h35 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°60
+Heure d'arrivée: 12h57 
+Temps d'attente 4h32 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h18 
+
+Client n°61
+Heure d'arrivée: 13h0 
+Temps d'attente 4h29 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°62
+Heure d'arrivée: 13h5 
+Temps d'attente 4h24 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h42 
+
+Client n°63
+Heure d'arrivée: 13h20 
+Temps d'attente 4h9 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°64
+Heure d'arrivée: 13h23 
+Temps d'attente 4h6 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h54 
+
+Client n°65
+Heure d'arrivée: 13h29 
+Temps d'attente 4h0 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°66
+Heure d'arrivée: 13h30 
+Temps d'attente 3h59 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h14 
+
+Client n°67
+Heure d'arrivée: 13h42 
+Temps d'attente 3h47 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°68
+Heure d'arrivée: 13h42 
+Temps d'attente 3h47 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h10 
+
+Client n°69
+Heure d'arrivée: 13h44 
+Temps d'attente 3h45 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°70
+Heure d'arrivée: 13h45 
+Temps d'attente 3h44 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h58 
+
+Client n°71
+Heure d'arrivée: 13h58 
+Temps d'attente 3h31 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°72
+Heure d'arrivée: 14h4 
+Temps d'attente 3h25 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h19 
+
+Client n°73
+Heure d'arrivée: 14h9 
+Temps d'attente 3h20 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°74
+Heure d'arrivée: 14h12 
+Temps d'attente 3h17 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h46 
+
+Client n°75
+Heure d'arrivée: 14h14 
+Temps d'attente 3h15 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°76
+Heure d'arrivée: 14h15 
+Temps d'attente 3h14 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h17 
+
+Client n°77
+Heure d'arrivée: 14h17 
+Temps d'attente 3h12 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°78
+Heure d'arrivée: 14h52 
+Temps d'attente 2h37 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h51 
+
+Client n°79
+Heure d'arrivée: 14h57 
+Temps d'attente 2h32 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°80
+Heure d'arrivée: 15h2 
+Temps d'attente 2h27 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h53 
+
+Client n°81
+Heure d'arrivée: 15h21 
+Temps d'attente 2h8 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°82
+Heure d'arrivée: 15h22 
+Temps d'attente 2h7 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h15 
+
+Client n°83
+Heure d'arrivée: 15h27 
+Temps d'attente 2h2 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°84
+Heure d'arrivée: 15h32 
+Temps d'attente 1h57 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h13 
+
+Client n°85
+Heure d'arrivée: 15h33 
+Temps d'attente 1h56 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°86
+Heure d'arrivée: 15h35 
+Temps d'attente 1h54 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h46 
+
+Client n°87
+Heure d'arrivée: 15h42 
+Temps d'attente 1h47 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°88
+Heure d'arrivée: 15h43 
+Temps d'attente 1h46 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h53 
+
+Client n°89
+Heure d'arrivée: 15h43 
+Temps d'attente 1h46 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°90
+Heure d'arrivée: 15h47 
+Temps d'attente 1h42 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h0 
+
+Client n°91
+Heure d'arrivée: 15h50 
+Temps d'attente 1h39 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°92
+Heure d'arrivée: 15h53 
+Temps d'attente 1h36 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h13 
+
+Client n°93
+Heure d'arrivée: 15h55 
+Temps d'attente 1h34 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°94
+Heure d'arrivée: 15h56 
+Temps d'attente 1h33 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h40 
+
+Client n°95
+Heure d'arrivée: 16h10 
+Temps d'attente 1h19 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°96
+Heure d'arrivée: 16h13 
+Temps d'attente 1h16 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h16 
+
+Client n°97
+Heure d'arrivée: 16h16 
+Temps d'attente 1h13 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°98
+Heure d'arrivée: 16h24 
+Temps d'attente 1h5 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h44 
+
+Client n°99
+Heure d'arrivée: 16h40 
+Temps d'attente 0h49 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°100
+Heure d'arrivée: 16h56 
+Temps d'attente 0h33 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h48 
+
+Client n°101
+Heure d'arrivée: 16h58 
+Temps d'attente 0h31 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
 
 
 
@@ -29,10 +1205,652 @@ Heure de fin de service: 7465h44
 Journée numéro : 3
 
 Client n°1
-Heure d'arrivée: 24625h32 
+Heure d'arrivée: 8h33 
 Temps d'attente 0h0 
-Heure du début de service: 24625h32 
-Heure de fin de service: 24625h36 
+Heure du début de service: 8h33 
+Heure de fin de service: 8h53 
+
+Client n°2
+Heure d'arrivée: 8h36 
+Temps d'attente 0h17 
+Heure du début de service: 8h53 
+Heure de fin de service: 9h16 
+
+Client n°3
+Heure d'arrivée: 8h37 
+Temps d'attente 0h39 
+Heure du début de service: 9h16 
+Heure de fin de service: 10h4 
+
+Client n°4
+Heure d'arrivée: 8h46 
+Temps d'attente 1h18 
+Heure du début de service: 10h4 
+Heure de fin de service: 10h39 
+
+Client n°5
+Heure d'arrivée: 8h50 
+Temps d'attente 1h48 
+Heure du début de service: 10h39 
+Heure de fin de service: 11h0 
+
+Client n°6
+Heure d'arrivée: 8h53 
+Temps d'attente 2h7 
+Heure du début de service: 11h0 
+Heure de fin de service: 11h47 
+
+Client n°7
+Heure d'arrivée: 9h0 
+Temps d'attente 2h47 
+Heure du début de service: 11h47 
+Heure de fin de service: 12h21 
+
+Client n°8
+Heure d'arrivée: 9h14 
+Temps d'attente 3h6 
+Heure du début de service: 12h21 
+Heure de fin de service: 12h58 
+
+Client n°9
+Heure d'arrivée: 9h16 
+Temps d'attente 3h41 
+Heure du début de service: 12h58 
+Heure de fin de service: 13h20 
+
+Client n°10
+Heure d'arrivée: 9h21 
+Temps d'attente 3h59 
+Heure du début de service: 13h20 
+Heure de fin de service: 14h5 
+
+Client n°11
+Heure d'arrivée: 9h32 
+Temps d'attente 4h32 
+Heure du début de service: 14h5 
+Heure de fin de service: 14h31 
+
+Client n°12
+Heure d'arrivée: 10h1 
+Temps d'attente 4h29 
+Heure du début de service: 14h31 
+Heure de fin de service: 15h15 
+
+Client n°13
+Heure d'arrivée: 10h10 
+Temps d'attente 5h4 
+Heure du début de service: 15h15 
+Heure de fin de service: 16h3 
+
+Client n°14
+Heure d'arrivée: 10h10 
+Temps d'attente 5h52 
+Heure du début de service: 16h3 
+Heure de fin de service: 16h20 
+
+Client n°15
+Heure d'arrivée: 10h11 
+Temps d'attente 6h8 
+Heure du début de service: 16h20 
+Heure de fin de service: 16h47 
+
+Client n°16
+Heure d'arrivée: 10h13 
+Temps d'attente 6h34 
+Heure du début de service: 16h47 
+Heure de fin de service: 17h15 
+
+Client n°17
+Heure d'arrivée: 10h28 
+Temps d'attente 6h47 
+Heure du début de service: 17h15 
+Heure de fin de service: 17h53 
+
+Client n°18
+Heure d'arrivée: 10h35 
+Temps d'attente 6h54 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°19
+Heure d'arrivée: 10h40 
+Temps d'attente 6h49 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h5 
+
+Client n°20
+Heure d'arrivée: 10h46 
+Temps d'attente 6h43 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°21
+Heure d'arrivée: 10h59 
+Temps d'attente 6h30 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h46 
+
+Client n°22
+Heure d'arrivée: 10h59 
+Temps d'attente 6h30 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°23
+Heure d'arrivée: 11h6 
+Temps d'attente 6h23 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h42 
+
+Client n°24
+Heure d'arrivée: 11h8 
+Temps d'attente 6h21 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°25
+Heure d'arrivée: 11h10 
+Temps d'attente 6h19 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h16 
+
+Client n°26
+Heure d'arrivée: 11h30 
+Temps d'attente 5h59 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°27
+Heure d'arrivée: 11h32 
+Temps d'attente 5h57 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h19 
+
+Client n°28
+Heure d'arrivée: 11h33 
+Temps d'attente 5h56 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°29
+Heure d'arrivée: 11h46 
+Temps d'attente 5h43 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h47 
+
+Client n°30
+Heure d'arrivée: 11h48 
+Temps d'attente 5h41 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°31
+Heure d'arrivée: 11h53 
+Temps d'attente 5h36 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h2 
+
+Client n°32
+Heure d'arrivée: 11h57 
+Temps d'attente 5h32 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°33
+Heure d'arrivée: 11h59 
+Temps d'attente 5h30 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h55 
+
+Client n°34
+Heure d'arrivée: 12h4 
+Temps d'attente 5h25 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°35
+Heure d'arrivée: 12h4 
+Temps d'attente 5h25 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h52 
+
+Client n°36
+Heure d'arrivée: 12h4 
+Temps d'attente 5h25 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°37
+Heure d'arrivée: 12h7 
+Temps d'attente 5h22 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h48 
+
+Client n°38
+Heure d'arrivée: 12h12 
+Temps d'attente 5h17 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°39
+Heure d'arrivée: 12h13 
+Temps d'attente 5h16 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h15 
+
+Client n°40
+Heure d'arrivée: 12h15 
+Temps d'attente 5h14 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°41
+Heure d'arrivée: 12h23 
+Temps d'attente 5h6 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h52 
+
+Client n°42
+Heure d'arrivée: 12h34 
+Temps d'attente 4h55 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°43
+Heure d'arrivée: 12h36 
+Temps d'attente 4h53 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h40 
+
+Client n°44
+Heure d'arrivée: 12h37 
+Temps d'attente 4h52 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°45
+Heure d'arrivée: 12h38 
+Temps d'attente 4h51 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h2 
+
+Client n°46
+Heure d'arrivée: 12h41 
+Temps d'attente 4h48 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°47
+Heure d'arrivée: 12h41 
+Temps d'attente 4h48 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h18 
+
+Client n°48
+Heure d'arrivée: 12h44 
+Temps d'attente 4h45 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°49
+Heure d'arrivée: 12h46 
+Temps d'attente 4h43 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h18 
+
+Client n°50
+Heure d'arrivée: 12h47 
+Temps d'attente 4h42 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°51
+Heure d'arrivée: 12h49 
+Temps d'attente 4h40 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h55 
+
+Client n°52
+Heure d'arrivée: 12h51 
+Temps d'attente 4h38 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°53
+Heure d'arrivée: 12h55 
+Temps d'attente 4h34 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h14 
+
+Client n°54
+Heure d'arrivée: 13h14 
+Temps d'attente 4h15 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°55
+Heure d'arrivée: 13h21 
+Temps d'attente 4h8 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h52 
+
+Client n°56
+Heure d'arrivée: 13h24 
+Temps d'attente 4h5 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°57
+Heure d'arrivée: 13h29 
+Temps d'attente 4h0 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h54 
+
+Client n°58
+Heure d'arrivée: 13h35 
+Temps d'attente 3h54 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°59
+Heure d'arrivée: 13h37 
+Temps d'attente 3h52 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h16 
+
+Client n°60
+Heure d'arrivée: 13h38 
+Temps d'attente 3h51 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°61
+Heure d'arrivée: 13h41 
+Temps d'attente 3h48 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h0 
+
+Client n°62
+Heure d'arrivée: 13h43 
+Temps d'attente 3h46 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°63
+Heure d'arrivée: 13h46 
+Temps d'attente 3h43 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h7 
+
+Client n°64
+Heure d'arrivée: 13h47 
+Temps d'attente 3h42 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°65
+Heure d'arrivée: 13h52 
+Temps d'attente 3h37 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h53 
+
+Client n°66
+Heure d'arrivée: 13h53 
+Temps d'attente 3h36 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°67
+Heure d'arrivée: 13h59 
+Temps d'attente 3h30 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h59 
+
+Client n°68
+Heure d'arrivée: 14h5 
+Temps d'attente 3h24 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°69
+Heure d'arrivée: 14h7 
+Temps d'attente 3h22 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h6 
+
+Client n°70
+Heure d'arrivée: 14h8 
+Temps d'attente 3h21 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°71
+Heure d'arrivée: 14h24 
+Temps d'attente 3h5 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h6 
+
+Client n°72
+Heure d'arrivée: 14h30 
+Temps d'attente 2h59 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°73
+Heure d'arrivée: 14h30 
+Temps d'attente 2h59 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h53 
+
+Client n°74
+Heure d'arrivée: 14h34 
+Temps d'attente 2h55 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°75
+Heure d'arrivée: 14h35 
+Temps d'attente 2h54 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h5 
+
+Client n°76
+Heure d'arrivée: 14h54 
+Temps d'attente 2h35 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°77
+Heure d'arrivée: 14h55 
+Temps d'attente 2h34 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h53 
+
+Client n°78
+Heure d'arrivée: 14h57 
+Temps d'attente 2h32 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°79
+Heure d'arrivée: 14h57 
+Temps d'attente 2h32 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h55 
+
+Client n°80
+Heure d'arrivée: 15h0 
+Temps d'attente 2h29 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°81
+Heure d'arrivée: 15h6 
+Temps d'attente 2h23 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h5 
+
+Client n°82
+Heure d'arrivée: 15h11 
+Temps d'attente 2h18 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°83
+Heure d'arrivée: 15h11 
+Temps d'attente 2h18 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h51 
+
+Client n°84
+Heure d'arrivée: 15h18 
+Temps d'attente 2h11 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°85
+Heure d'arrivée: 15h32 
+Temps d'attente 1h57 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h16 
+
+Client n°86
+Heure d'arrivée: 15h36 
+Temps d'attente 1h53 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°87
+Heure d'arrivée: 15h41 
+Temps d'attente 1h48 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h50 
+
+Client n°88
+Heure d'arrivée: 15h44 
+Temps d'attente 1h45 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°89
+Heure d'arrivée: 15h49 
+Temps d'attente 1h40 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h19 
+
+Client n°90
+Heure d'arrivée: 15h49 
+Temps d'attente 1h40 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°91
+Heure d'arrivée: 15h54 
+Temps d'attente 1h35 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h19 
+
+Client n°92
+Heure d'arrivée: 15h58 
+Temps d'attente 1h31 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°93
+Heure d'arrivée: 16h0 
+Temps d'attente 1h29 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h18 
+
+Client n°94
+Heure d'arrivée: 16h3 
+Temps d'attente 1h26 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°95
+Heure d'arrivée: 16h5 
+Temps d'attente 1h24 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h13 
+
+Client n°96
+Heure d'arrivée: 16h5 
+Temps d'attente 1h24 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°97
+Heure d'arrivée: 16h8 
+Temps d'attente 1h21 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h5 
+
+Client n°98
+Heure d'arrivée: 16h12 
+Temps d'attente 1h17 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°99
+Heure d'arrivée: 16h24 
+Temps d'attente 1h5 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h49 
+
+Client n°100
+Heure d'arrivée: 16h24 
+Temps d'attente 1h5 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°101
+Heure d'arrivée: 16h25 
+Temps d'attente 1h4 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h4 
+
+Client n°102
+Heure d'arrivée: 16h32 
+Temps d'attente 0h57 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°103
+Heure d'arrivée: 16h43 
+Temps d'attente 0h46 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h49 
+
+Client n°104
+Heure d'arrivée: 16h45 
+Temps d'attente 0h44 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°105
+Heure d'arrivée: 16h46 
+Temps d'attente 0h43 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h54 
+
+Client n°106
+Heure d'arrivée: 16h49 
+Temps d'attente 0h40 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°107
+Heure d'arrivée: 16h51 
+Temps d'attente 0h38 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h18 
+
+Client n°108
+Heure d'arrivée: 16h56 
+Temps d'attente 0h33 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
 
 
 
@@ -43,10 +1861,730 @@ Heure de fin de service: 24625h36
 Journée numéro : 4
 
 Client n°1
-Heure d'arrivée: 13999h23 
+Heure d'arrivée: 8h31 
 Temps d'attente 0h0 
-Heure du début de service: 13999h23 
-Heure de fin de service: 13999h31 
+Heure du début de service: 8h31 
+Heure de fin de service: 8h43 
+
+Client n°2
+Heure d'arrivée: 8h40 
+Temps d'attente 0h2 
+Heure du début de service: 8h43 
+Heure de fin de service: 8h55 
+
+Client n°3
+Heure d'arrivée: 8h43 
+Temps d'attente 0h12 
+Heure du début de service: 8h55 
+Heure de fin de service: 9h17 
+
+Client n°4
+Heure d'arrivée: 8h49 
+Temps d'attente 0h28 
+Heure du début de service: 9h17 
+Heure de fin de service: 10h1 
+
+Client n°5
+Heure d'arrivée: 8h59 
+Temps d'attente 1h2 
+Heure du début de service: 10h1 
+Heure de fin de service: 10h36 
+
+Client n°6
+Heure d'arrivée: 8h59 
+Temps d'attente 1h36 
+Heure du début de service: 10h36 
+Heure de fin de service: 11h22 
+
+Client n°7
+Heure d'arrivée: 9h2 
+Temps d'attente 2h19 
+Heure du début de service: 11h22 
+Heure de fin de service: 11h42 
+
+Client n°8
+Heure d'arrivée: 9h6 
+Temps d'attente 2h36 
+Heure du début de service: 11h42 
+Heure de fin de service: 12h1 
+
+Client n°9
+Heure d'arrivée: 9h6 
+Temps d'attente 2h54 
+Heure du début de service: 12h1 
+Heure de fin de service: 12h28 
+
+Client n°10
+Heure d'arrivée: 9h9 
+Temps d'attente 3h18 
+Heure du début de service: 12h28 
+Heure de fin de service: 12h52 
+
+Client n°11
+Heure d'arrivée: 9h21 
+Temps d'attente 3h30 
+Heure du début de service: 12h52 
+Heure de fin de service: 13h28 
+
+Client n°12
+Heure d'arrivée: 9h27 
+Temps d'attente 4h0 
+Heure du début de service: 13h28 
+Heure de fin de service: 13h49 
+
+Client n°13
+Heure d'arrivée: 9h31 
+Temps d'attente 4h18 
+Heure du début de service: 13h49 
+Heure de fin de service: 14h2 
+
+Client n°14
+Heure d'arrivée: 9h32 
+Temps d'attente 4h29 
+Heure du début de service: 14h2 
+Heure de fin de service: 14h17 
+
+Client n°15
+Heure d'arrivée: 9h39 
+Temps d'attente 4h37 
+Heure du début de service: 14h17 
+Heure de fin de service: 14h34 
+
+Client n°16
+Heure d'arrivée: 9h40 
+Temps d'attente 4h54 
+Heure du début de service: 14h34 
+Heure de fin de service: 15h16 
+
+Client n°17
+Heure d'arrivée: 9h43 
+Temps d'attente 5h32 
+Heure du début de service: 15h16 
+Heure de fin de service: 16h5 
+
+Client n°18
+Heure d'arrivée: 9h53 
+Temps d'attente 6h12 
+Heure du début de service: 16h5 
+Heure de fin de service: 16h49 
+
+Client n°19
+Heure d'arrivée: 9h55 
+Temps d'attente 6h54 
+Heure du début de service: 16h49 
+Heure de fin de service: 17h21 
+
+Client n°20
+Heure d'arrivée: 10h1 
+Temps d'attente 7h19 
+Heure du début de service: 17h21 
+Heure de fin de service: 17h37 
+
+Client n°21
+Heure d'arrivée: 10h1 
+Temps d'attente 7h28 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°22
+Heure d'arrivée: 10h2 
+Temps d'attente 7h27 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h4 
+
+Client n°23
+Heure d'arrivée: 10h2 
+Temps d'attente 7h27 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°24
+Heure d'arrivée: 10h11 
+Temps d'attente 7h18 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h42 
+
+Client n°25
+Heure d'arrivée: 10h11 
+Temps d'attente 7h18 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°26
+Heure d'arrivée: 10h14 
+Temps d'attente 7h15 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h16 
+
+Client n°27
+Heure d'arrivée: 10h28 
+Temps d'attente 7h1 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°28
+Heure d'arrivée: 10h29 
+Temps d'attente 7h0 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h58 
+
+Client n°29
+Heure d'arrivée: 10h30 
+Temps d'attente 6h59 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°30
+Heure d'arrivée: 10h34 
+Temps d'attente 6h55 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h18 
+
+Client n°31
+Heure d'arrivée: 10h39 
+Temps d'attente 6h50 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°32
+Heure d'arrivée: 10h46 
+Temps d'attente 6h43 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h42 
+
+Client n°33
+Heure d'arrivée: 10h52 
+Temps d'attente 6h37 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°34
+Heure d'arrivée: 11h4 
+Temps d'attente 6h25 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h19 
+
+Client n°35
+Heure d'arrivée: 11h5 
+Temps d'attente 6h24 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°36
+Heure d'arrivée: 11h6 
+Temps d'attente 6h23 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h52 
+
+Client n°37
+Heure d'arrivée: 11h8 
+Temps d'attente 6h21 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°38
+Heure d'arrivée: 11h21 
+Temps d'attente 6h8 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h58 
+
+Client n°39
+Heure d'arrivée: 11h29 
+Temps d'attente 6h0 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°40
+Heure d'arrivée: 11h32 
+Temps d'attente 5h57 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h10 
+
+Client n°41
+Heure d'arrivée: 11h32 
+Temps d'attente 5h57 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°42
+Heure d'arrivée: 11h38 
+Temps d'attente 5h51 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h19 
+
+Client n°43
+Heure d'arrivée: 11h38 
+Temps d'attente 5h51 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°44
+Heure d'arrivée: 11h41 
+Temps d'attente 5h48 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h50 
+
+Client n°45
+Heure d'arrivée: 11h43 
+Temps d'attente 5h46 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°46
+Heure d'arrivée: 11h44 
+Temps d'attente 5h45 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h14 
+
+Client n°47
+Heure d'arrivée: 11h51 
+Temps d'attente 5h38 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°48
+Heure d'arrivée: 12h4 
+Temps d'attente 5h25 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h57 
+
+Client n°49
+Heure d'arrivée: 12h9 
+Temps d'attente 5h20 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°50
+Heure d'arrivée: 12h11 
+Temps d'attente 5h18 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h10 
+
+Client n°51
+Heure d'arrivée: 12h15 
+Temps d'attente 5h14 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°52
+Heure d'arrivée: 12h15 
+Temps d'attente 5h14 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h14 
+
+Client n°53
+Heure d'arrivée: 12h21 
+Temps d'attente 5h8 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°54
+Heure d'arrivée: 12h23 
+Temps d'attente 5h6 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h59 
+
+Client n°55
+Heure d'arrivée: 12h30 
+Temps d'attente 4h59 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°56
+Heure d'arrivée: 12h31 
+Temps d'attente 4h58 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h11 
+
+Client n°57
+Heure d'arrivée: 12h39 
+Temps d'attente 4h50 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°58
+Heure d'arrivée: 12h46 
+Temps d'attente 4h43 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h14 
+
+Client n°59
+Heure d'arrivée: 12h54 
+Temps d'attente 4h35 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°60
+Heure d'arrivée: 12h54 
+Temps d'attente 4h35 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h41 
+
+Client n°61
+Heure d'arrivée: 12h55 
+Temps d'attente 4h34 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°62
+Heure d'arrivée: 13h7 
+Temps d'attente 4h22 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h17 
+
+Client n°63
+Heure d'arrivée: 13h9 
+Temps d'attente 4h20 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°64
+Heure d'arrivée: 13h11 
+Temps d'attente 4h18 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h17 
+
+Client n°65
+Heure d'arrivée: 13h17 
+Temps d'attente 4h12 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°66
+Heure d'arrivée: 13h23 
+Temps d'attente 4h6 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h45 
+
+Client n°67
+Heure d'arrivée: 13h25 
+Temps d'attente 4h4 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°68
+Heure d'arrivée: 13h49 
+Temps d'attente 3h40 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h40 
+
+Client n°69
+Heure d'arrivée: 13h56 
+Temps d'attente 3h33 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°70
+Heure d'arrivée: 13h59 
+Temps d'attente 3h30 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h59 
+
+Client n°71
+Heure d'arrivée: 14h0 
+Temps d'attente 3h29 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°72
+Heure d'arrivée: 14h2 
+Temps d'attente 3h27 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h18 
+
+Client n°73
+Heure d'arrivée: 14h7 
+Temps d'attente 3h22 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°74
+Heure d'arrivée: 14h16 
+Temps d'attente 3h13 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h57 
+
+Client n°75
+Heure d'arrivée: 14h17 
+Temps d'attente 3h12 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°76
+Heure d'arrivée: 14h20 
+Temps d'attente 3h9 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h57 
+
+Client n°77
+Heure d'arrivée: 14h22 
+Temps d'attente 3h7 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°78
+Heure d'arrivée: 14h24 
+Temps d'attente 3h5 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h5 
+
+Client n°79
+Heure d'arrivée: 14h25 
+Temps d'attente 3h4 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°80
+Heure d'arrivée: 14h30 
+Temps d'attente 2h59 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h14 
+
+Client n°81
+Heure d'arrivée: 14h33 
+Temps d'attente 2h56 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°82
+Heure d'arrivée: 14h33 
+Temps d'attente 2h56 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h12 
+
+Client n°83
+Heure d'arrivée: 14h34 
+Temps d'attente 2h55 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°84
+Heure d'arrivée: 14h43 
+Temps d'attente 2h46 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h12 
+
+Client n°85
+Heure d'arrivée: 14h45 
+Temps d'attente 2h44 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°86
+Heure d'arrivée: 14h46 
+Temps d'attente 2h43 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h59 
+
+Client n°87
+Heure d'arrivée: 14h47 
+Temps d'attente 2h42 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°88
+Heure d'arrivée: 14h50 
+Temps d'attente 2h39 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h9 
+
+Client n°89
+Heure d'arrivée: 14h54 
+Temps d'attente 2h35 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°90
+Heure d'arrivée: 14h55 
+Temps d'attente 2h34 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h13 
+
+Client n°91
+Heure d'arrivée: 14h56 
+Temps d'attente 2h33 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°92
+Heure d'arrivée: 14h58 
+Temps d'attente 2h31 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h59 
+
+Client n°93
+Heure d'arrivée: 14h58 
+Temps d'attente 2h31 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°94
+Heure d'arrivée: 14h59 
+Temps d'attente 2h30 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h48 
+
+Client n°95
+Heure d'arrivée: 15h1 
+Temps d'attente 2h28 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°96
+Heure d'arrivée: 15h1 
+Temps d'attente 2h28 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h15 
+
+Client n°97
+Heure d'arrivée: 15h1 
+Temps d'attente 2h28 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°98
+Heure d'arrivée: 15h7 
+Temps d'attente 2h22 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h43 
+
+Client n°99
+Heure d'arrivée: 15h8 
+Temps d'attente 2h21 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°100
+Heure d'arrivée: 15h19 
+Temps d'attente 2h10 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h55 
+
+Client n°101
+Heure d'arrivée: 15h29 
+Temps d'attente 2h0 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°102
+Heure d'arrivée: 15h39 
+Temps d'attente 1h50 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h18 
+
+Client n°103
+Heure d'arrivée: 15h46 
+Temps d'attente 1h43 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°104
+Heure d'arrivée: 15h52 
+Temps d'attente 1h37 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h54 
+
+Client n°105
+Heure d'arrivée: 15h56 
+Temps d'attente 1h33 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°106
+Heure d'arrivée: 15h57 
+Temps d'attente 1h32 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h10 
+
+Client n°107
+Heure d'arrivée: 16h1 
+Temps d'attente 1h28 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°108
+Heure d'arrivée: 16h2 
+Temps d'attente 1h27 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h1 
+
+Client n°109
+Heure d'arrivée: 16h3 
+Temps d'attente 1h26 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°110
+Heure d'arrivée: 16h9 
+Temps d'attente 1h20 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h57 
+
+Client n°111
+Heure d'arrivée: 16h10 
+Temps d'attente 1h19 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°112
+Heure d'arrivée: 16h12 
+Temps d'attente 1h17 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h46 
+
+Client n°113
+Heure d'arrivée: 16h22 
+Temps d'attente 1h7 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°114
+Heure d'arrivée: 16h24 
+Temps d'attente 1h5 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h18 
+
+Client n°115
+Heure d'arrivée: 16h28 
+Temps d'attente 1h1 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°116
+Heure d'arrivée: 16h30 
+Temps d'attente 0h59 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h57 
+
+Client n°117
+Heure d'arrivée: 16h31 
+Temps d'attente 0h58 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°118
+Heure d'arrivée: 16h34 
+Temps d'attente 0h55 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h41 
+
+Client n°119
+Heure d'arrivée: 16h37 
+Temps d'attente 0h52 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°120
+Heure d'arrivée: 16h40 
+Temps d'attente 0h49 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h42 
+
+Client n°121
+Heure d'arrivée: 16h57 
+Temps d'attente 0h32 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
 
 
 
@@ -57,10 +2595,676 @@ Heure de fin de service: 13999h31
 Journée numéro : 5
 
 Client n°1
-Heure d'arrivée: 34696h44 
+Heure d'arrivée: 8h30 
 Temps d'attente 0h0 
-Heure du début de service: 34696h44 
-Heure de fin de service: 34696h52 
+Heure du début de service: 8h30 
+Heure de fin de service: 8h42 
+
+Client n°2
+Heure d'arrivée: 8h30 
+Temps d'attente 0h11 
+Heure du début de service: 8h42 
+Heure de fin de service: 8h57 
+
+Client n°3
+Heure d'arrivée: 8h33 
+Temps d'attente 0h24 
+Heure du début de service: 8h57 
+Heure de fin de service: 9h37 
+
+Client n°4
+Heure d'arrivée: 8h37 
+Temps d'attente 0h59 
+Heure du début de service: 9h37 
+Heure de fin de service: 10h9 
+
+Client n°5
+Heure d'arrivée: 8h41 
+Temps d'attente 1h28 
+Heure du début de service: 10h9 
+Heure de fin de service: 10h55 
+
+Client n°6
+Heure d'arrivée: 8h47 
+Temps d'attente 2h7 
+Heure du début de service: 10h55 
+Heure de fin de service: 11h22 
+
+Client n°7
+Heure d'arrivée: 8h59 
+Temps d'attente 2h23 
+Heure du début de service: 11h22 
+Heure de fin de service: 12h10 
+
+Client n°8
+Heure d'arrivée: 9h1 
+Temps d'attente 3h8 
+Heure du début de service: 12h10 
+Heure de fin de service: 12h38 
+
+Client n°9
+Heure d'arrivée: 9h1 
+Temps d'attente 3h36 
+Heure du début de service: 12h38 
+Heure de fin de service: 13h17 
+
+Client n°10
+Heure d'arrivée: 9h12 
+Temps d'attente 4h4 
+Heure du début de service: 13h17 
+Heure de fin de service: 13h41 
+
+Client n°11
+Heure d'arrivée: 9h24 
+Temps d'attente 4h16 
+Heure du début de service: 13h41 
+Heure de fin de service: 14h1 
+
+Client n°12
+Heure d'arrivée: 9h27 
+Temps d'attente 4h34 
+Heure du début de service: 14h1 
+Heure de fin de service: 14h28 
+
+Client n°13
+Heure d'arrivée: 9h29 
+Temps d'attente 4h58 
+Heure du début de service: 14h28 
+Heure de fin de service: 15h10 
+
+Client n°14
+Heure d'arrivée: 9h32 
+Temps d'attente 5h38 
+Heure du début de service: 15h10 
+Heure de fin de service: 15h33 
+
+Client n°15
+Heure d'arrivée: 9h35 
+Temps d'attente 5h58 
+Heure du début de service: 15h33 
+Heure de fin de service: 15h54 
+
+Client n°16
+Heure d'arrivée: 9h43 
+Temps d'attente 6h11 
+Heure du début de service: 15h54 
+Heure de fin de service: 16h23 
+
+Client n°17
+Heure d'arrivée: 9h45 
+Temps d'attente 6h37 
+Heure du début de service: 16h23 
+Heure de fin de service: 17h6 
+
+Client n°18
+Heure d'arrivée: 9h50 
+Temps d'attente 7h16 
+Heure du début de service: 17h6 
+Heure de fin de service: 17h47 
+
+Client n°19
+Heure d'arrivée: 9h54 
+Temps d'attente 7h35 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°20
+Heure d'arrivée: 9h56 
+Temps d'attente 7h33 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h44 
+
+Client n°21
+Heure d'arrivée: 9h56 
+Temps d'attente 7h33 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°22
+Heure d'arrivée: 10h0 
+Temps d'attente 7h29 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h17 
+
+Client n°23
+Heure d'arrivée: 10h24 
+Temps d'attente 7h5 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°24
+Heure d'arrivée: 10h26 
+Temps d'attente 7h3 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h41 
+
+Client n°25
+Heure d'arrivée: 10h31 
+Temps d'attente 6h58 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°26
+Heure d'arrivée: 10h34 
+Temps d'attente 6h55 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h2 
+
+Client n°27
+Heure d'arrivée: 10h38 
+Temps d'attente 6h51 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°28
+Heure d'arrivée: 10h59 
+Temps d'attente 6h30 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h15 
+
+Client n°29
+Heure d'arrivée: 11h4 
+Temps d'attente 6h25 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°30
+Heure d'arrivée: 11h5 
+Temps d'attente 6h24 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h41 
+
+Client n°31
+Heure d'arrivée: 11h12 
+Temps d'attente 6h17 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°32
+Heure d'arrivée: 11h15 
+Temps d'attente 6h14 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h42 
+
+Client n°33
+Heure d'arrivée: 11h24 
+Temps d'attente 6h5 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°34
+Heure d'arrivée: 11h33 
+Temps d'attente 5h56 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h56 
+
+Client n°35
+Heure d'arrivée: 11h35 
+Temps d'attente 5h54 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°36
+Heure d'arrivée: 11h39 
+Temps d'attente 5h50 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h52 
+
+Client n°37
+Heure d'arrivée: 11h40 
+Temps d'attente 5h49 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°38
+Heure d'arrivée: 11h41 
+Temps d'attente 5h48 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h48 
+
+Client n°39
+Heure d'arrivée: 11h41 
+Temps d'attente 5h48 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°40
+Heure d'arrivée: 11h43 
+Temps d'attente 5h46 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h6 
+
+Client n°41
+Heure d'arrivée: 11h56 
+Temps d'attente 5h33 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°42
+Heure d'arrivée: 11h57 
+Temps d'attente 5h32 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h58 
+
+Client n°43
+Heure d'arrivée: 12h0 
+Temps d'attente 5h29 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°44
+Heure d'arrivée: 12h2 
+Temps d'attente 5h27 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h43 
+
+Client n°45
+Heure d'arrivée: 12h8 
+Temps d'attente 5h21 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°46
+Heure d'arrivée: 12h9 
+Temps d'attente 5h20 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h56 
+
+Client n°47
+Heure d'arrivée: 12h13 
+Temps d'attente 5h16 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°48
+Heure d'arrivée: 12h16 
+Temps d'attente 5h13 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h56 
+
+Client n°49
+Heure d'arrivée: 12h22 
+Temps d'attente 5h7 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°50
+Heure d'arrivée: 12h31 
+Temps d'attente 4h58 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h17 
+
+Client n°51
+Heure d'arrivée: 12h34 
+Temps d'attente 4h55 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°52
+Heure d'arrivée: 12h36 
+Temps d'attente 4h53 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h8 
+
+Client n°53
+Heure d'arrivée: 12h38 
+Temps d'attente 4h51 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°54
+Heure d'arrivée: 12h51 
+Temps d'attente 4h38 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h56 
+
+Client n°55
+Heure d'arrivée: 12h52 
+Temps d'attente 4h37 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°56
+Heure d'arrivée: 12h52 
+Temps d'attente 4h37 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h42 
+
+Client n°57
+Heure d'arrivée: 13h2 
+Temps d'attente 4h27 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°58
+Heure d'arrivée: 13h5 
+Temps d'attente 4h24 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h52 
+
+Client n°59
+Heure d'arrivée: 13h9 
+Temps d'attente 4h20 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°60
+Heure d'arrivée: 13h12 
+Temps d'attente 4h17 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h48 
+
+Client n°61
+Heure d'arrivée: 13h15 
+Temps d'attente 4h14 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°62
+Heure d'arrivée: 13h20 
+Temps d'attente 4h9 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h41 
+
+Client n°63
+Heure d'arrivée: 13h20 
+Temps d'attente 4h9 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°64
+Heure d'arrivée: 13h23 
+Temps d'attente 4h6 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h12 
+
+Client n°65
+Heure d'arrivée: 13h26 
+Temps d'attente 4h3 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°66
+Heure d'arrivée: 13h33 
+Temps d'attente 3h56 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h17 
+
+Client n°67
+Heure d'arrivée: 13h38 
+Temps d'attente 3h51 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°68
+Heure d'arrivée: 13h43 
+Temps d'attente 3h46 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h41 
+
+Client n°69
+Heure d'arrivée: 13h46 
+Temps d'attente 3h43 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°70
+Heure d'arrivée: 13h49 
+Temps d'attente 3h40 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h5 
+
+Client n°71
+Heure d'arrivée: 13h56 
+Temps d'attente 3h33 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°72
+Heure d'arrivée: 14h3 
+Temps d'attente 3h26 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h3 
+
+Client n°73
+Heure d'arrivée: 14h12 
+Temps d'attente 3h17 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°74
+Heure d'arrivée: 14h23 
+Temps d'attente 3h6 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h55 
+
+Client n°75
+Heure d'arrivée: 14h24 
+Temps d'attente 3h5 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°76
+Heure d'arrivée: 14h29 
+Temps d'attente 3h0 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h4 
+
+Client n°77
+Heure d'arrivée: 14h36 
+Temps d'attente 2h53 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°78
+Heure d'arrivée: 14h42 
+Temps d'attente 2h47 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h15 
+
+Client n°79
+Heure d'arrivée: 14h44 
+Temps d'attente 2h45 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°80
+Heure d'arrivée: 14h50 
+Temps d'attente 2h39 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h10 
+
+Client n°81
+Heure d'arrivée: 14h52 
+Temps d'attente 2h37 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°82
+Heure d'arrivée: 14h58 
+Temps d'attente 2h31 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h40 
+
+Client n°83
+Heure d'arrivée: 15h1 
+Temps d'attente 2h28 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°84
+Heure d'arrivée: 15h1 
+Temps d'attente 2h28 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h17 
+
+Client n°85
+Heure d'arrivée: 15h12 
+Temps d'attente 2h17 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°86
+Heure d'arrivée: 15h17 
+Temps d'attente 2h12 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h5 
+
+Client n°87
+Heure d'arrivée: 15h17 
+Temps d'attente 2h12 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°88
+Heure d'arrivée: 15h18 
+Temps d'attente 2h11 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h14 
+
+Client n°89
+Heure d'arrivée: 15h22 
+Temps d'attente 2h7 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°90
+Heure d'arrivée: 15h23 
+Temps d'attente 2h6 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h7 
+
+Client n°91
+Heure d'arrivée: 15h26 
+Temps d'attente 2h3 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°92
+Heure d'arrivée: 15h28 
+Temps d'attente 2h1 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h48 
+
+Client n°93
+Heure d'arrivée: 15h28 
+Temps d'attente 2h1 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°94
+Heure d'arrivée: 15h28 
+Temps d'attente 2h1 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h54 
+
+Client n°95
+Heure d'arrivée: 15h29 
+Temps d'attente 2h0 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°96
+Heure d'arrivée: 15h29 
+Temps d'attente 2h0 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h57 
+
+Client n°97
+Heure d'arrivée: 15h31 
+Temps d'attente 1h58 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°98
+Heure d'arrivée: 15h34 
+Temps d'attente 1h55 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h8 
+
+Client n°99
+Heure d'arrivée: 15h34 
+Temps d'attente 1h55 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°100
+Heure d'arrivée: 15h40 
+Temps d'attente 1h49 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h41 
+
+Client n°101
+Heure d'arrivée: 15h54 
+Temps d'attente 1h35 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°102
+Heure d'arrivée: 16h0 
+Temps d'attente 1h29 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h18 
+
+Client n°103
+Heure d'arrivée: 16h4 
+Temps d'attente 1h25 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°104
+Heure d'arrivée: 16h12 
+Temps d'attente 1h17 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h42 
+
+Client n°105
+Heure d'arrivée: 16h12 
+Temps d'attente 1h17 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°106
+Heure d'arrivée: 16h19 
+Temps d'attente 1h10 
+Heure du début de service: 17h30 
+Heure de fin de service: 17h58 
+
+Client n°107
+Heure d'arrivée: 16h29 
+Temps d'attente 1h0 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°108
+Heure d'arrivée: 16h35 
+Temps d'attente 0h54 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h16 
+
+Client n°109
+Heure d'arrivée: 16h50 
+Temps d'attente 0h39 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°110
+Heure d'arrivée: 16h52 
+Temps d'attente 0h37 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h19 
+
+Client n°111
+Heure d'arrivée: 16h56 
+Temps d'attente 0h33 
+Heure du début de service: 0h0 
+Heure de fin de service: 17h30 
+
+Client n°112
+Heure d'arrivée: 16h59 
+Temps d'attente 0h30 
+Heure du début de service: 17h30 
+Heure de fin de service: 18h13 
 
 
 

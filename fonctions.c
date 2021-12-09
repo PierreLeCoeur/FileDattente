@@ -17,9 +17,9 @@ float ecartArrivee(float lambda) // génération du temps d'écart entre l'arriv
 	return -log(1.0 - LoiUnitaire()) / lambda;
 }
 
-float tempsService()
+float tempsService(float minserv, float maxserv)
 {
-	return (MINSRV+LoiUnitaire()*(MAXSRV-MINSRV));
+	return (minserv+LoiUnitaire()*(maxserv-minserv));
 }
 
 
@@ -196,6 +196,13 @@ int ecritureFichiersStats( Stats *teteStats)//Boolen; renvoie 0 pour echec d'ouv
         fprintf(fichier,"En moyenne, le temps de réponse est de %f minutes \n",tempsRepMoyTot);
         fprintf(fichier,"Le débit journalier est en moyenne de %f client(s) par jour \n",debitJournalierTot);
         fprintf(fichier,"En moyenne, %f client(s) ne sont pas servis chaque jour", nonServisMoy);
+        
+        printf("Taille moyenne de la file : %f\n",tailleMoyTot);
+        printf("La file d'attente la plus longue faisait %d client(s) \n",tailleMax);
+        printf("En moyenne, le temps de réponse est de %f minutes \n",tempsRepMoyTot);
+        printf("Le débit journalier est en moyenne de %f client(s) par jour \n",debitJournalierTot);
+        printf("En moyenne, %f client(s) ne sont pas servis chaque jour", nonServisMoy);
+        
         fclose(fichier);
         return 1;
     }
@@ -253,10 +260,10 @@ int conversionMinutesHeure(float heure,int *minutes)
 
 
 
-void nouvelleJournee(float lambda,Liste *ListesClients,int journee, Stats *teteStats)
+void nouvelleJournee(float lambda,Liste *ListesClients,int journee, Stats *teteStats, float minserv, float maxserv)
 {
     
-    premierClient(ListesClients->tete, ecartArrivee(lambda),tempsService());
+    premierClient(ListesClients->tete, ecartArrivee(lambda),tempsService(minserv,maxserv));
     float h_actual=heureArriveeDernier((ListesClients->tete)->suiv);
 
     //Initialisation des compteurs
@@ -271,7 +278,7 @@ void nouvelleJournee(float lambda,Liste *ListesClients,int journee, Stats *teteS
     while(h_actual<HEURE_FIN_ENTREE)
     {
         float t_ecart = ecartArrivee(lambda);
-        float t_service = tempsService();
+        float t_service = tempsService(minserv,maxserv);
         if(h_actual+t_ecart<HEURE_FIN_ENTREE)
         {
             ajouterClient(ListesClients->tete, t_ecart, t_service,&totale_attente,&compteurClients,&compteur_nonServis);
